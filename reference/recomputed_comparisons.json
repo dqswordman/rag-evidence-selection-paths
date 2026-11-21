@@ -1,0 +1,39 @@
+{
+  "bootstrap_repetitions": 20000,
+  "seed": 20261107,
+  "comparisons": [
+    {
+      "experiment": "A",
+      "checked_statistics": 81,
+      "maximum_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "experiment": "B",
+      "checked_statistics": 90,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "experiment": "C_policy",
+      "checked_statistics": 108,
+      "maximum_absolute_error": 0.0
+    }
+  ],
+  "cross_encoder_search_counts": [
+    {
+      "model": "qwen",
+      "questions": 89,
+      "changed_sets": 14,
+      "answer_changes": 7,
+      "f1_increases": 2,
+      "f1_decreases": 4
+    },
+    {
+      "model": "gemma",
+      "questions": 89,
+      "changed_sets": 14,
+      "answer_changes": 9,
+      "f1_increases": 3,
+      "f1_decreases": 4
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: Please cite the report when using these research materials.
+title: 'From Evidence Scores to RAG Answers: Budget, Search, and Presentation — research materials'
+type: software
+authors:
+- family-names: Du
+  given-names: Wenzhang
+version: 1.0.0
+date-released: '2026-11-21'
+license: MIT
+repository-code: https://github.com/dqswordman/rag-evidence-selection-paths
+url: https://github.com/dqswordman/rag-evidence-selection-paths/tree/v1.0.0
+preferred-citation:
+  type: report
+  title: 'From Evidence Scores to RAG Answers: Budget, Search, and Presentation'
+  authors:
+  - family-names: Du
+    given-names: Wenzhang
+  year: 2026
+  month: 11
+  url: https://dqswordman.github.io/assets/reports/rag-evidence-selection-paths/manuscript.pdf
+  version: 1.0.0

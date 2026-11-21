@@ -1,0 +1,39 @@
+{
+  "input_scope": "Frozen evidence selection and answer records",
+  "A_questions": 539,
+  "A_pool_model_conditions": 3234,
+  "A_role_answers_checked": 9702,
+  "A_max_readout_error": 1.1102230246251565e-16,
+  "complete_canonical_conditions": 356,
+  "complete_canonical_answers": 22784,
+  "B_answer_records_checked": 10080,
+  "B_max_readout_error": 1.1102230246251565e-16,
+  "B_crossed_paths": 600,
+  "C_pool_rules_recomputed": 890,
+  "C_answer_readouts_checked": 3204,
+  "C_max_readout_error": 1.1102230246251565e-16,
+  "coverage_policy_union6": [
+    "BM25_top3",
+    "BGE_top3",
+    "U_singleton_top3",
+    "U_greedy_stop3",
+    "U_greedy_fixed3",
+    "U_exact_le3"
+  ],
+  "coverage_policy_union12": [
+    "BM25_top3",
+    "BGE_top3",
+    "U_singleton_top3",
+    "U_greedy_stop3",
+    "U_greedy_fixed3",
+    "U_exact_le3",
+    "U_exact_eq3",
+    "CE_top3",
+    "CE_MMR3",
+    "CE_joint_greedy3",
+    "CE_joint_exact3",
+    "CE_joint_best1to3"
+  ],
+  "bootstrap_repetitions": 20000,
+  "bootstrap_seed": 20261107
+}

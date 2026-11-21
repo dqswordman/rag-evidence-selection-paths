@@ -1,0 +1,63 @@
+{
+  "dataset": "hotpotqa",
+  "qid": "5ac300905542996773102682",
+  "model": "qwen",
+  "track": "A",
+  "role": "E_le",
+  "question": "Devilment finally found a stable vocalist in the founding member of which band?",
+  "reference": [
+    "Cradle of Filth"
+  ],
+  "canonical_mask": 5,
+  "reverse_mask": 33,
+  "states": [
+    {
+      "name": "Original",
+      "order": "canonical",
+      "mask": 5,
+      "documents": [
+        "D1",
+        "D3"
+      ],
+      "titles": [
+        "Dani Filth",
+        "Ronnie Radke"
+      ],
+      "prediction": "Cradle of Filth",
+      "f1": 1.0,
+      "em": 1.0
+    },
+    {
+      "name": "Reversed",
+      "order": "reverse",
+      "mask": 5,
+      "documents": [
+        "D3",
+        "D1"
+      ],
+      "titles": [
+        "Ronnie Radke",
+        "Dani Filth"
+      ],
+      "prediction": "Falling in Reverse",
+      "f1": 0.0,
+      "em": 0.0
+    },
+    {
+      "name": "Reselected",
+      "order": "reverse",
+      "mask": 33,
+      "documents": [
+        "D6",
+        "D1"
+      ],
+      "titles": [
+        "Jeff Caxide",
+        "Dani Filth"
+      ],
+      "prediction": "Cradle of Filth",
+      "f1": 1.0,
+      "em": 1.0
+    }
+  ]
+}

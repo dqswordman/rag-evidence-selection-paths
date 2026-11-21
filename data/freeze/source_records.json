@@ -1,0 +1,15 @@
+{
+  "canonical_answers_original_sha256": "ff31bdee387baddbb8ddd6389d0f1c276846b77d9dcfa4aec5ec6cdea9f402c8",
+  "public_answer_fields": [
+    "dataset",
+    "qid",
+    "model",
+    "track",
+    "mask",
+    "prediction",
+    "legacy_roles",
+    "legacy_em",
+    "legacy_f1"
+  ],
+  "candidate_text": "Passage titles, order, ranks, content hashes and source question IDs locate the original passages."
+}

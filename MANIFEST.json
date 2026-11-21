@@ -1,0 +1,332 @@
+{
+  "distribution": "GitHub v1.0.0",
+  "title": "From Evidence Scores to RAG Answers: Budget, Search, and Presentation",
+  "author": "Wenzhang Du",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".github/workflows/publish-hugging-face.yml",
+      "size_bytes": 1548,
+      "sha256": "fc2b1aa7db4f494e8e05d81d5fffd93ad6a796ea096331fe322e7413686031e1"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 39,
+      "sha256": "b77c7eaaa5cebad124c73420774e5d580753c520267551cb2087e6132a9b59c5"
+    },
+    {
+      "path": "citation.bib",
+      "size_bytes": 313,
+      "sha256": "6af71b719989ab25c13963206232fb0ae121ca61eb2ed6827bee1520821aac12"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 776,
+      "sha256": "edefafcd240646365001e091e201e095063051ebe9d2f182bfc43a17fb20d0f2"
+    },
+    {
+      "path": "data/analysis/A_bootstrap_summary.csv",
+      "size_bytes": 136021,
+      "sha256": "7cd9eb9118123d5e9adb6ab3d7a28a7df805c2041af256f1d0c803352196d772"
+    },
+    {
+      "path": "data/analysis/A_per_question.csv",
+      "size_bytes": 601315,
+      "sha256": "7acd7bd4dcf7efdf8457da17130fba36b2de2574bdddcb80094de2ec2ab35c2a"
+    },
+    {
+      "path": "data/analysis/A_role_answers.csv",
+      "size_bytes": 4707120,
+      "sha256": "6429b556fb7fe815965339367cd6a890f6a445b8ef3b92006905b6c6a04eb2ee"
+    },
+    {
+      "path": "data/analysis/B_answers_42.jsonl.gz",
+      "size_bytes": 486293,
+      "sha256": "07125c36b1f4b059cd19280d2af7dca0ada5bb991dcdbe0771726a3fe4910f2c"
+    },
+    {
+      "path": "data/analysis/B_effects.csv",
+      "size_bytes": 166999,
+      "sha256": "544bc1e4168faceed1b1aef49e68cffe8c9619ddd45aed150b80f7052bc9fe95"
+    },
+    {
+      "path": "data/analysis/B_fixed_mask_and_reselection.csv",
+      "size_bytes": 127833,
+      "sha256": "5845dabc4296f96b7ef71eb1c654e366b16cbace06876033b98a455286799da2"
+    },
+    {
+      "path": "data/analysis/B_utility_cubes.jsonl.gz",
+      "size_bytes": 206464,
+      "sha256": "e124c0b156543a40de693938a6b331f806b5830a70a284d9b295e1b5690340fd"
+    },
+    {
+      "path": "data/analysis/C_joint_scores.csv",
+      "size_bytes": 2059082,
+      "sha256": "0f0a52f5ea0ec6caea0b5689ed67aaef62bf7593caa5603e8c6fedf0337d194a"
+    },
+    {
+      "path": "data/analysis/C_paired_per_question.csv",
+      "size_bytes": 192808,
+      "sha256": "3527bde99e0c4e501b951262890e783387f53e52636cac9f2b5313352d01fe97"
+    },
+    {
+      "path": "data/analysis/C_policy_effects.csv",
+      "size_bytes": 83824,
+      "sha256": "15f81859562549b3d139ee055d8db7e49f9d25630ff73d705dc69575977858c4"
+    },
+    {
+      "path": "data/analysis/C_policy_per_question.csv",
+      "size_bytes": 838434,
+      "sha256": "c54d7b5bc4eac4c70c3ebd222d431d007e9b748876eaa00501803568c7e5f288"
+    },
+    {
+      "path": "data/analysis/C_selected_masks.csv",
+      "size_bytes": 132631,
+      "sha256": "6bb890542775b0cede57bd8ab258fe354e378387d2ab2a5a5bd1a0667e8c0e57"
+    },
+    {
+      "path": "data/design.json",
+      "size_bytes": 4398,
+      "sha256": "ef06ba4aad11a27b906f536faeec6d6ddb93242127c1d86c9167ec61495e1d11"
+    },
+    {
+      "path": "data/freeze/candidates.jsonl.gz",
+      "size_bytes": 743579,
+      "sha256": "dd3ac27f7a255f6113e8bc96de821e8f0a2134d1da51cb94cec78c55662c19a1"
+    },
+    {
+      "path": "data/freeze/embedding_cosines.jsonl.gz",
+      "size_bytes": 68717,
+      "sha256": "c83ae09da71e5b4dc954a5b60b03dd1eee9d068da2fe3d11ede50ffd8b87924b"
+    },
+    {
+      "path": "data/freeze/frozen_cohort_roster.csv",
+      "size_bytes": 33323,
+      "sha256": "c64617f6eeb5132221748ccced470277a15dcb621f4803099f2fbc4280b332b2"
+    },
+    {
+      "path": "data/freeze/old_answers.jsonl.gz",
+      "size_bytes": 547154,
+      "sha256": "8750b69798d2fa67b82e7a2ec349ac9b2b82806d70ff6a14815100c2a65ad69d"
+    },
+    {
+      "path": "data/freeze/old_cubes.jsonl.gz",
+      "size_bytes": 3676585,
+      "sha256": "0ac74d3ffec8cca220b38770d46b90a0fdaa7fc1e34f30ada4f4473acd143c0d"
+    },
+    {
+      "path": "data/freeze/questions.jsonl.gz",
+      "size_bytes": 43977,
+      "sha256": "cac10dcc41fa88989f443ea71a7486236d456d196fd460245929a0fa840d3cf2"
+    },
+    {
+      "path": "data/freeze/source_records.json",
+      "size_bytes": 400,
+      "sha256": "70309e5df8feedddc82d5d3270ee1be5b68db2aa157cb44c24b434a1c9d054f0"
+    },
+    {
+      "path": "docs/companion.json",
+      "size_bytes": 11229,
+      "sha256": "93928af4a94ce3b1b649902f285fa660381fc758bdacc91ef5b56f65161eaa2e"
+    },
+    {
+      "path": "docs/report.en.md",
+      "size_bytes": 4384,
+      "sha256": "e0db45f52f8e45e389db5a1b046dbd9a3905eddba221df0d996687ef8e3b15ee"
+    },
+    {
+      "path": "docs/report.zh.md",
+      "size_bytes": 3855,
+      "sha256": "ef588b4547802d96cac15519b2fc35cdb275a55b4fed827049f72e7341a6aabc"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "size_bytes": 2172,
+      "sha256": "24afc10150233f8d1a6acac52a71598896499362a3236fe5e291e05b40519950"
+    },
+    {
+      "path": "figures/A1_budget_and_search.png",
+      "size_bytes": 66199,
+      "sha256": "d632a2a39053100fdfecfd819cbc8b07e2c303dd6c131a767039939914388240"
+    },
+    {
+      "path": "figures/B1_presentation_and_reselection.png",
+      "size_bytes": 49347,
+      "sha256": "804ee8693bb7216e0fe46394dbb15c7c4f5209af965489c5f0088fb3e6760a11"
+    },
+    {
+      "path": "figures/C1_same_score_search.png",
+      "size_bytes": 32224,
+      "sha256": "8454b6726771eea3d43a53cedd282cd16cc4c6eec3fd2bc00a4519def3b8abb9"
+    },
+    {
+      "path": "figures/design.pdf",
+      "size_bytes": 41186,
+      "sha256": "32574b3f2f6bedafd2a4c1f8c8d9a36818f9c422fb58d5c7630f06d16a281014"
+    },
+    {
+      "path": "figures/design.png",
+      "size_bytes": 172824,
+      "sha256": "4790925e45ccf005bd90f93aba7b11bf415b768445aece93826b6a891a753a6f"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1068,
+      "sha256": "020893b24fb2a5b62d2d2748f65e569e31ab7b8eeb831b5e64bb7a57e544c104"
+    },
+    {
+      "path": "licenses/2Wiki-Apache-2.0.txt",
+      "size_bytes": 11337,
+      "sha256": "b8c1d7752e71597a45121774b6be93df38a81e1b748be15c063c0759f11e00ea"
+    },
+    {
+      "path": "licenses/CC-BY-4.0.txt",
+      "size_bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    {
+      "path": "paper/manuscript.pdf",
+      "size_bytes": 496330,
+      "sha256": "1ed3a87eedbc180675a62a5f666ff33b573885089d4eed03a913a97deefc210d"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2906,
+      "sha256": "491667f81552811e0c5fcec828b73be99b968ff368e0fbe8938541053fcdbc35"
+    },
+    {
+      "path": "reference/A_cardinality_contributions_bootstrap.csv",
+      "size_bytes": 11781,
+      "sha256": "a8e98bf31ea83ca2dd78e302039830f2aba66e2c9132c008afe8dab4f2092488"
+    },
+    {
+      "path": "reference/audited89_all_policies_by_model_summary.csv",
+      "size_bytes": 12750,
+      "sha256": "63faaad5aac45e6cc523dfe5c065e816b2f20be8bdccb5623910ea7f7289b1c7"
+    },
+    {
+      "path": "reference/budget_search_539.csv",
+      "size_bytes": 554,
+      "sha256": "eb0d4e1999481de55f44084ea578a2f93a899019ab5bcef18186dd265b9e9572"
+    },
+    {
+      "path": "reference/cardinality_contributions.csv",
+      "size_bytes": 730,
+      "sha256": "2131a7c70da6140a34c17c7eb5539f36695b74b41e70bd0d7f4363795082d308"
+    },
+    {
+      "path": "reference/coverage_per_pool.csv",
+      "size_bytes": 36134,
+      "sha256": "06c1077ea9c018d670e42b562569d05873f2698bfd76618e6558fe16194e6f7e"
+    },
+    {
+      "path": "reference/coverage_selected_sets.csv",
+      "size_bytes": 365918,
+      "sha256": "d5787c21ee0f052118afc63d02a3fdd89aa621a884c14f48c41e1f150c2fa9c7"
+    },
+    {
+      "path": "reference/coverage_summary.csv",
+      "size_bytes": 14399,
+      "sha256": "d3e780d1cda181850e4121d8ebb801429cc2269d309b2285ff82a9df425959e0"
+    },
+    {
+      "path": "reference/crossed_order_per_pool.csv",
+      "size_bytes": 73557,
+      "sha256": "8e14467f9d6a8901bc1eb715daf67869745f4bc307f7257cdfb0529dc8c4eaea"
+    },
+    {
+      "path": "reference/crossed_order_summary.csv",
+      "size_bytes": 69549,
+      "sha256": "572a085ee89a3dc92d1855624218093e56e5b6b60cbbbc1bd43173e109535981"
+    },
+    {
+      "path": "reference/figure1.json",
+      "size_bytes": 1178,
+      "sha256": "8587b9e923313c9e0894d660510117175df59674db8578047a92bd627deaa561"
+    },
+    {
+      "path": "reference/recomputed_comparisons.json",
+      "size_bytes": 787,
+      "sha256": "ea1e7a8bf13736c03044d1b71c51e8449bcea450ed4130c82a16ae6760f593bd"
+    },
+    {
+      "path": "reference/v2_raw_validation.json",
+      "size_bytes": 1015,
+      "sha256": "18ab5b1b66dadf0673b4aca1fd1eb92915ebc4d526f738f68739f1e2c0b554b1"
+    },
+    {
+      "path": "reproduce.py",
+      "size_bytes": 1757,
+      "sha256": "37701552c0f3b6cf0168a0ddfa9031f7443f64c0ceb1c76343a69161380df432"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 13,
+      "sha256": "5c12d85e7c08038d1dd9ffbf8119d12ce808885230a47e2bf65dcd9f114659d5"
+    },
+    {
+      "path": "scripts/analyze_v2.py",
+      "size_bytes": 13831,
+      "sha256": "d42b8ae40d9071a4ef31ea26c9b14ef88f26fa7a18ad2619b7476f79fcf44886"
+    },
+    {
+      "path": "scripts/publish_space.py",
+      "size_bytes": 5655,
+      "sha256": "5e8faf4ca551845b0058d6d8ea879658fcfeef99dcc7a9282acdf561edc59acb"
+    },
+    {
+      "path": "scripts/r2_stats.py",
+      "size_bytes": 4147,
+      "sha256": "839b381f2ceb613199c30541740a68cf5c7c20870c49f494b8f269f59b7bf756"
+    },
+    {
+      "path": "scripts/recompute_reported_comparisons.py",
+      "size_bytes": 3757,
+      "sha256": "2cc9f28e3e7cec7c09a781160bac724b26f72abdc471e668f5f0d7792f071e03"
+    },
+    {
+      "path": "scripts/replay_figure1.py",
+      "size_bytes": 1543,
+      "sha256": "2a5cb86e8d79f204cb60aafa17f1c1fef97aae52b4768e7d1521dd21a2e6a9d3"
+    },
+    {
+      "path": "space/app.js",
+      "size_bytes": 1548,
+      "sha256": "bd84985b5fcccdd91e89fadf5419bf31e408ed89a0d0e4d0dee7be094cef32a3"
+    },
+    {
+      "path": "space/evidence.json",
+      "size_bytes": 3850,
+      "sha256": "8566657c3ec9d99d79d4ae82d1d1ea9c72c8bbe371e45acd8bd6ad2ecc9371ab"
+    },
+    {
+      "path": "space/index.html",
+      "size_bytes": 5953,
+      "sha256": "dd4c238fa80890b35a435eb8e436a3d5dd2ed14856a5536ae855f5c1e846e394"
+    },
+    {
+      "path": "space/README.md",
+      "size_bytes": 1644,
+      "sha256": "e0dee28c4b328fb9e8638826c209ce5bcba91575ff36834fc287c648a410370d"
+    },
+    {
+      "path": "space/style.css",
+      "size_bytes": 3013,
+      "sha256": "b6b2a43cb232d7716031fa1f4cf3c52d5a45b6f472c5329f0f6919f0f03f647f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1252,
+      "sha256": "865c41b9b27cdbca172a552a66123c62b9eb340fba15cd6f2e53bf2e7f0097ea"
+    },
+    {
+      "path": "verify_manifest.py",
+      "size_bytes": 923,
+      "sha256": "7b5ba35096f87b66a8eee7626e286b1b8ffec205b33dee0919bec0bc164b38d2"
+    }
+  ]
+}

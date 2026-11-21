@@ -1,0 +1,1448 @@
+dataset,qid,model,track,cohort,contrast,raw_logit_gain,F1_change,EM_change,answer_change,mask_change,mask_first,mask_second,first_prediction,second_prediction
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,Grand Prix de Rome,Grand Prix de Rome
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,Grand Prix de Rome,Grand Prix de Rome
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.08063316345214844,0.0,0.0,False,True,11,35,Grand Prix de Rome,Grand Prix de Rome
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,11,11,Grand Prix de Rome,Grand Prix de Rome
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,Jean-Michel Damase,Jean-Michel Damase
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,Jean-Michel Damase,Jean-Michel Damase
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.08063316345214844,0.0,0.0,False,True,11,35,Jean-Michel Damase,Jean-Michel Damase
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,11,11,Jean-Michel Damase,Jean-Michel Damase
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,13,13,Grand Prix de Rome,Grand Prix de Rome
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,Grand Prix de Rome,Grand Prix de Rome
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.01557159423828125,0.0,0.0,False,True,13,37,Grand Prix de Rome,Grand Prix de Rome
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.40293216705322266,0.0,0.0,False,True,13,21,Grand Prix de Rome,Grand Prix de Rome
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,13,13,Jean-Michel Damase,Jean-Michel Damase
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,Jean-Michel Damase,Jean-Michel Damase
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.01557159423828125,0.0,0.0,False,True,13,37,Jean-Michel Damase,Jean-Michel Damase
+2wikimultihopqa,0170ae400bde11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.40293216705322266,0.0,0.0,False,True,13,21,Jean-Michel Damase,Jean-Michel Damase
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Burnt By The Sun,Burnt By The Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,qwen,A,nested89,C_R,0.9911417961120605,0.0,0.0,False,True,33,49,Burnt By The Sun,Burnt By The Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.6992373466491699,0.0,0.0,False,True,49,35,Burnt By The Sun,Burnt By The Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,49,49,Burnt By The Sun,Burnt By The Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Burnt by the Sun,Burnt by the Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,gemma,A,nested89,C_R,0.9911417961120605,0.0,0.0,False,True,33,49,Burnt by the Sun,Burnt by the Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.6992373466491699,0.0,0.0,False,True,49,35,Burnt by the Sun,Burnt by the Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,49,49,Burnt by the Sun,Burnt by the Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Burnt by the Sun,Burnt by the Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,qwen,B,nested89,C_R,0.5189723968505859,0.0,0.0,True,True,33,35,Burnt By The Sun,Burnt by the Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.4721693992614746,0.0,0.0,True,True,35,49,Burnt by the Sun,Burnt By The Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.4721693992614746,0.0,0.0,True,True,35,49,Burnt by the Sun,Burnt By The Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Burnt by the Sun,Burnt by the Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,gemma,B,nested89,C_R,0.5189723968505859,0.0,0.0,False,True,33,35,Burnt by the Sun,Burnt by the Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.4721693992614746,0.0,0.0,False,True,35,49,Burnt by the Sun,Burnt by the Sun
+2wikimultihopqa,041879d0093a11ebbdaeac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.4721693992614746,0.0,0.0,False,True,35,49,Burnt by the Sun,Burnt by the Sun
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,"You Say I'M Too Much, I Say You'RE Not Enough","You Say I'M Too Much, I Say You'RE Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,qwen,A,nested89,C_R,0.31984901428222656,0.0,0.0,False,True,33,49,"You Say I'M Too Much, I Say You'RE Not Enough","You Say I'M Too Much, I Say You'RE Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.30655765533447266,0.0,0.0,False,True,49,37,"You Say I'M Too Much, I Say You'RE Not Enough","You Say I'M Too Much, I Say You'RE Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,49,49,"You Say I'M Too Much, I Say You'RE Not Enough","You Say I'M Too Much, I Say You'RE Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,"You Say I'M Too Much, I Say You'Re Not Enough","You Say I'M Too Much, I Say You'Re Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,gemma,A,nested89,C_R,0.31984901428222656,0.0,0.0,False,True,33,49,"You Say I'M Too Much, I Say You'Re Not Enough","You Say I'M Too Much, I Say You'Re Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.30655765533447266,0.0,0.0,False,True,49,37,"You Say I'M Too Much, I Say You'Re Not Enough","You Say I'M Too Much, I Say You'Re Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,49,49,"You Say I'M Too Much, I Say You'Re Not Enough","You Say I'M Too Much, I Say You'Re Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,"You Say I'M Too Much, I Say You'RE Not Enough","You Say I'M Too Much, I Say You'RE Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,qwen,B,nested89,C_R,0.31984901428222656,0.0,0.0,False,True,33,49,"You Say I'M Too Much, I Say You'RE Not Enough","You Say I'M Too Much, I Say You'RE Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.30655765533447266,0.0,0.0,False,True,49,37,"You Say I'M Too Much, I Say You'RE Not Enough","You Say I'M Too Much, I Say You'RE Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,49,49,"You Say I'M Too Much, I Say You'RE Not Enough","You Say I'M Too Much, I Say You'RE Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,"You Say I'M Too Much, I Say You'Re Not Enough","You Say I'M Too Much, I Say You'Re Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,gemma,B,nested89,C_R,0.31984901428222656,0.0,0.0,False,True,33,49,"You Say I'M Too Much, I Say You'Re Not Enough","You Say I'M Too Much, I Say You'Re Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.30655765533447266,0.0,0.0,False,True,49,37,"You Say I'M Too Much, I Say You'Re Not Enough","You Say I'M Too Much, I Say You'Re Not Enough"
+2wikimultihopqa,08246419090711ebbdadac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,49,49,"You Say I'M Too Much, I Say You'Re Not Enough","You Say I'M Too Much, I Say You'Re Not Enough"
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,qwen,A,nested89,C_R,0.8234069347381592,0.0,0.0,False,True,32,42,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.5418967008590698,0.0,0.0,False,True,42,49,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.5418967008590698,0.0,0.0,False,True,42,49,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,gemma,A,nested89,C_R,0.8234069347381592,0.0,0.0,False,True,32,42,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.5418967008590698,0.0,0.0,False,True,42,49,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.5418967008590698,0.0,0.0,False,True,42,49,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,42,42,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,qwen,B,nested89,C_R,0.8424170017242432,0.0,0.0,False,True,32,42,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.5228866338729858,0.0,0.0,False,True,42,49,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.5228866338729858,0.0,0.0,False,True,42,49,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,42,42,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,gemma,B,nested89,C_R,0.8424170017242432,0.0,0.0,False,True,32,42,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.5228866338729858,0.0,0.0,False,True,42,49,French,French
+2wikimultihopqa,1118315c0bdd11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.5228866338729858,0.0,0.0,False,True,42,49,French,French
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,"Lombardi, Ltd.","Lombardi, Ltd."
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,28,28,"Lombardi, Ltd.","Lombardi, Ltd."
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.25714778900146484,0.0,0.0,False,True,28,56,"Lombardi, Ltd.","Lombardi, Ltd."
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.25714778900146484,0.0,0.0,False,True,28,56,"Lombardi, Ltd.","Lombardi, Ltd."
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,The Great St. Louis Bank Robbery,The Great St. Louis Bank Robbery
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,28,28,The Great St. Louis Bank Robbery,The Great St. Louis Bank Robbery
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.25714778900146484,0.0,0.0,False,True,28,56,The Great St. Louis Bank Robbery,The Great St. Louis Bank Robbery
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.25714778900146484,0.0,0.0,False,True,28,56,The Great St. Louis Bank Robbery,The Great St. Louis Bank Robbery
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,"Lombardi, Ltd.","Lombardi, Ltd."
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,qwen,B,nested89,C_R,0.1429157257080078,0.0,0.0,False,True,24,56,"Lombardi, Ltd.","Lombardi, Ltd."
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,"Lombardi, Ltd.","Lombardi, Ltd."
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,"Lombardi, Ltd.","Lombardi, Ltd."
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,The Great St. Louis Bank Robbery,The Great St. Louis Bank Robbery
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,gemma,B,nested89,C_R,0.1429157257080078,1.0,1.0,True,True,24,56,"Lombardi, Ltd.",The Great St. Louis Bank Robbery
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,The Great St. Louis Bank Robbery,The Great St. Louis Bank Robbery
+2wikimultihopqa,1e22e65308a011ebbd78ac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,The Great St. Louis Bank Robbery,The Great St. Louis Bank Robbery
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,26,26,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,26,26,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,qwen,A,nested89,exact_minus_top3,1.433274745941162,0.0,0.0,False,True,26,11,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,1.433274745941162,0.0,0.0,False,True,26,11,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,26,26,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,26,26,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,gemma,A,nested89,exact_minus_top3,1.433274745941162,0.0,0.0,False,True,26,11,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,1.433274745941162,0.0,0.0,False,True,26,11,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,26,26,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,26,26,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.9088134765625,0.0,0.0,False,True,26,42,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.9088134765625,0.0,0.0,False,True,26,42,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,26,26,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,26,26,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.9088134765625,0.0,0.0,False,True,26,42,The Star Chamber,The Star Chamber
+2wikimultihopqa,1f715224089a11ebbd77ac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.9088134765625,0.0,0.0,False,True,26,42,The Star Chamber,The Star Chamber
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,qwen,A,nested89,J_R,0.35854625701904297,0.0,0.0,True,True,26,11,No,no
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,26,26,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.5750117301940918,0.0,0.0,False,True,26,25,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.5750117301940918,0.0,0.0,False,True,26,25,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,gemma,A,nested89,J_R,0.35854625701904297,-1.0,-1.0,True,True,26,11,No,Yes
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,26,26,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.5750117301940918,0.0,0.0,False,True,26,25,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.5750117301940918,0.0,0.0,False,True,26,25,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,49,49,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.3387179374694824,0.0,0.0,False,True,49,52,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.3387179374694824,0.0,0.0,False,True,49,52,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,49,49,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.3387179374694824,0.0,0.0,False,True,49,52,No,No
+2wikimultihopqa,2bb730d9087411ebbd67ac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.3387179374694824,0.0,0.0,False,True,49,52,No,No
+2wikimultihopqa,30885e540bb011ebab90acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,30885e540bb011ebab90acde48001122,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,11,11,"Franz Joseph I, Prince of Liechtenstein","Franz Joseph I, Prince of Liechtenstein"
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,No,No
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,qwen,A,nested89,C_R,0.0013227462768554688,0.0,0.0,False,True,3,11,No,No
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,11,11,No,No
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,11,11,No,No
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,Yes,Yes
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,gemma,A,nested89,C_R,0.0013227462768554688,1.0,1.0,True,True,3,11,No,Yes
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,11,11,Yes,Yes
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,11,11,Yes,Yes
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,22,22,No,No
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,22,22,No,No
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,22,22,No,No
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,22,22,No,No
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,22,22,Yes,Yes
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,22,22,Yes,Yes
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,22,22,Yes,Yes
+2wikimultihopqa,318dc4b408dc11ebbd9cac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,22,22,Yes,Yes
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,qwen,A,nested89,J_R,0.00335693359375,0.0,0.0,False,True,44,14,Ireland,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,qwen,A,nested89,C_R,1.216336727142334,0.0,0.0,False,True,4,44,Ireland,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.1253955364227295,0.0,0.0,False,True,44,38,Ireland,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.48980045318603516,0.0,0.0,False,True,44,37,Ireland,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,gemma,A,nested89,J_R,0.00335693359375,1.0,1.0,True,True,44,14,United States,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,gemma,A,nested89,C_R,1.216336727142334,-1.0,-1.0,True,True,4,44,Ireland,United States
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.1253955364227295,1.0,1.0,True,True,44,38,United States,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.48980045318603516,0.0,0.0,False,True,44,37,United States,United States
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,qwen,B,nested89,J_R,0.00335693359375,0.0,0.0,False,True,44,14,Ireland,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,qwen,B,nested89,C_R,1.216336727142334,0.0,0.0,False,True,4,44,Ireland,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.1253955364227295,0.0,0.0,False,True,44,38,Ireland,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.48980045318603516,0.0,0.0,False,True,44,37,Ireland,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,gemma,B,nested89,J_R,0.00335693359375,1.0,1.0,True,True,44,14,United States,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,gemma,B,nested89,C_R,1.216336727142334,-1.0,-1.0,True,True,4,44,Ireland,United States
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.1253955364227295,1.0,1.0,True,True,44,38,United States,Ireland
+2wikimultihopqa,371c1d5e0bde11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.48980045318603516,0.0,0.0,False,True,44,37,United States,United States
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,37,37,Las Tecnologías Pesqueras,Las Tecnologías Pesqueras
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,37,37,Las Tecnologías Pesqueras,Las Tecnologías Pesqueras
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,qwen,A,nested89,exact_minus_top3,1.5658178329467773,-1.0,-1.0,True,True,37,44,Las Tecnologías Pesqueras,Don Cesare Di Bazan
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,1.5658178329467773,-1.0,-1.0,True,True,37,44,Las Tecnologías Pesqueras,Don Cesare Di Bazan
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,37,37,Las tecnologías pesqueras,Las tecnologías pesqueras
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,37,37,Las tecnologías pesqueras,Las tecnologías pesqueras
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,gemma,A,nested89,exact_minus_top3,1.5658178329467773,-1.0,-1.0,True,True,37,44,Las tecnologías pesqueras,Don Cesare di Bazan
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,1.5658178329467773,-1.0,-1.0,True,True,37,44,Las tecnologías pesqueras,Don Cesare di Bazan
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Las Tecnologías Pesqueras,Las Tecnologías Pesqueras
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,35,35,Las Tecnologías Pesqueras,Las Tecnologías Pesqueras
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,qwen,B,nested89,exact_minus_top3,1.5670371055603027,-1.0,-1.0,True,True,35,42,Las Tecnologías Pesqueras,Don Cesare Di Bazan
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,1.5670371055603027,-1.0,-1.0,True,True,35,42,Las Tecnologías Pesqueras,Don Cesare Di Bazan
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Las tecnologías pesqueras,Las tecnologías pesqueras
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,35,35,Las tecnologías pesqueras,Las tecnologías pesqueras
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,gemma,B,nested89,exact_minus_top3,1.5670371055603027,-1.0,-1.0,True,True,35,42,Las tecnologías pesqueras,Don Cesare di Bazan
+2wikimultihopqa,43fedada095511ebbdaeac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,1.5670371055603027,-1.0,-1.0,True,True,35,42,Las tecnologías pesqueras,Don Cesare di Bazan
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Mathru Bhoomi,Mathru Bhoomi
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,28,28,Mathru Bhoomi,Mathru Bhoomi
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,28,28,Mathru Bhoomi,Mathru Bhoomi
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.5742182731628418,-1.0,-1.0,True,True,28,21,Mathru Bhoomi,Tammy And The T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Tammy and the T-Rex,Tammy and the T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,28,28,Tammy and the T-Rex,Tammy and the T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,28,28,Tammy and the T-Rex,Tammy and the T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.5742182731628418,0.0,0.0,False,True,28,21,Tammy and the T-Rex,Tammy and the T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Mathru Bhoomi,Mathru Bhoomi
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,56,56,Mathru Bhoomi,Mathru Bhoomi
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.9504532814025879,-1.0,-1.0,True,True,56,44,Mathru Bhoomi,Tammy And The T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.6061019897460938,-1.0,-1.0,True,True,56,42,Mathru Bhoomi,Tammy And The T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Tammy and the T-Rex,Tammy and the T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,56,56,Tammy and the T-Rex,Tammy and the T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.9504532814025879,0.0,0.0,False,True,56,44,Tammy and the T-Rex,Tammy and the T-Rex
+2wikimultihopqa,480e8626089911ebbd77ac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.6061019897460938,0.0,0.0,False,True,56,42,Tammy and the T-Rex,Tammy and the T-Rex
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,qwen,A,nested89,J_R,0.1009058952331543,0.0,0.0,False,True,41,37,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,41,41,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,41,41,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.3904151916503906,1.0,1.0,True,True,41,11,Armentières,"No information provided about the director of the film ""Nothing To Declare""."
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,gemma,A,nested89,J_R,0.1009058952331543,0.0,0.0,False,True,41,37,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,41,41,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,41,41,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.3904151916503906,1.0,1.0,True,True,41,11,Armentières,Fredrikstad
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,qwen,B,nested89,J_R,0.04388999938964844,0.0,0.0,False,True,42,38,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,42,42,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.6967072486877441,1.0,1.0,True,True,42,26,Armentières,Poland
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,gemma,B,nested89,J_R,0.04388999938964844,0.0,0.0,False,True,42,38,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,42,42,Armentières,Armentières
+2wikimultihopqa,58ea00460bdd11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.6967072486877441,1.0,1.0,True,True,42,26,Armentières,Fredrikstad
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,1 February 1883,1 February 1883
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,qwen,A,nested89,C_R,0.8309822082519531,-1.0,-1.0,True,True,48,56,Information not provided in the given evidence.,1 February 1883
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,1.9948251247406006,1.0,1.0,True,True,56,19,1 February 1883,1900
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.1518096923828125,1.0,1.0,True,True,56,50,1 February 1883,1950
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,1 February 1883,1 February 1883
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,gemma,A,nested89,C_R,0.8309822082519531,-1.0,-1.0,True,True,48,56,1900,1 February 1883
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,1.9948251247406006,1.0,1.0,True,True,56,19,1 February 1883,1900
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.1518096923828125,1.0,1.0,True,True,56,50,1 February 1883,1900
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,1 February 1883,1 February 1883
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,qwen,B,nested89,C_R,0.8309822082519531,-1.0,-1.0,True,True,48,56,Information not provided in the given evidence.,1 February 1883
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,1.9948251247406006,1.0,1.0,True,True,56,19,1 February 1883,1900
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.1518096923828125,1.0,1.0,True,True,56,50,1 February 1883,1950
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,1 February 1883,1 February 1883
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,gemma,B,nested89,C_R,0.8309822082519531,-1.0,-1.0,True,True,48,56,1900,1 February 1883
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,1.9948251247406006,1.0,1.0,True,True,56,19,1 February 1883,1900
+2wikimultihopqa,5d6e00200bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.1518096923828125,1.0,1.0,True,True,56,50,1 February 1883,1900
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Flame Of Stamboul,Flame Of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,qwen,A,nested89,C_R,0.3702077865600586,0.0,0.0,False,True,12,44,Flame Of Stamboul,Flame Of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,Flame Of Stamboul,Flame Of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,Flame Of Stamboul,Flame Of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,The True Story Of Eskimo Nell,The True Story Of Eskimo Nell
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,gemma,A,nested89,C_R,0.3702077865600586,0.0,0.0,False,True,12,44,The True Story Of Eskimo Nell,The True Story Of Eskimo Nell
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,The True Story Of Eskimo Nell,The True Story Of Eskimo Nell
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,The True Story Of Eskimo Nell,The True Story Of Eskimo Nell
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Flame Of Stamboul,Flame Of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,qwen,B,nested89,C_R,0.3493633270263672,0.0,0.0,False,True,6,38,Flame Of Stamboul,Flame Of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,Flame Of Stamboul,Flame Of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,38,38,Flame Of Stamboul,Flame Of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Flame of Stamboul,Flame of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,gemma,B,nested89,C_R,0.3493633270263672,-0.33333333333333337,-1.0,True,True,6,38,"Flame of Stamboul
+
+
+
+
+
+
+
+
+Flame of Stamboul",Flame of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,Flame of Stamboul,Flame of Stamboul
+2wikimultihopqa,63a24046084c11ebbd56ac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,38,38,Flame of Stamboul,Flame of Stamboul
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,19,19,Astrid Henning-Jensen,Astrid Henning-Jensen
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,19,19,Astrid Henning-Jensen,Astrid Henning-Jensen
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.7902107238769531,1.0,1.0,True,True,19,21,Astrid Henning-Jensen,"Maria Teresa, Grand Duchess of Luxembourg"
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.7902107238769531,1.0,1.0,True,True,19,21,Astrid Henning-Jensen,"Maria Teresa, Grand Duchess of Luxembourg"
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,19,19,Astrid Henning-Jensen,Astrid Henning-Jensen
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,19,19,Astrid Henning-Jensen,Astrid Henning-Jensen
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.7902107238769531,1.0,1.0,True,True,19,21,Astrid Henning-Jensen,Euclid Tsakalotos
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.7902107238769531,1.0,1.0,True,True,19,21,Astrid Henning-Jensen,Euclid Tsakalotos
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,19,19,Astrid Henning-Jensen,Astrid Henning-Jensen
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,19,19,Astrid Henning-Jensen,Astrid Henning-Jensen
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.7550516128540039,1.0,1.0,True,True,19,25,Astrid Henning-Jensen,"Maria Teresa, Grand Duchess of Luxembourg"
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,1.2650184631347656,1.0,1.0,True,True,19,13,Astrid Henning-Jensen,"No spouse information provided for the director of the film ""Where Mountains Float""."
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,19,19,Astrid Henning-Jensen,Astrid Henning-Jensen
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,19,19,Astrid Henning-Jensen,Astrid Henning-Jensen
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.7550516128540039,1.0,1.0,True,True,19,25,Astrid Henning-Jensen,Euclid Tsakalotos
+2wikimultihopqa,674b49540bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,1.2650184631347656,1.0,1.0,True,True,19,13,Astrid Henning-Jensen,Maryam Rajavi
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Prince Maximilian of Saxony,Prince Maximilian of Saxony
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,qwen,A,nested89,C_R,1.3287534713745117,0.0,0.0,False,True,4,28,Prince Maximilian of Saxony,Prince Maximilian of Saxony
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,qwen,A,nested89,exact_minus_top3,1.3768324851989746,0.0,0.0,False,True,28,14,Prince Maximilian of Saxony,Prince Maximilian of Saxony
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,qwen,A,nested89,exact_minus_MMR3,1.0833053588867188,0.0,0.0,False,True,28,13,Prince Maximilian of Saxony,Prince Maximilian of Saxony
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Frederick Christian,Frederick Christian
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,gemma,A,nested89,C_R,1.3287534713745117,0.22222222222222224,0.0,True,True,4,28,"Frederick Christian, Elector of Saxony",Frederick Christian
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,gemma,A,nested89,exact_minus_top3,1.3768324851989746,-0.22222222222222224,0.0,True,True,28,14,Frederick Christian,"Frederick Christian, Elector of Saxony"
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,gemma,A,nested89,exact_minus_MMR3,1.0833053588867188,-0.22222222222222224,0.0,True,True,28,13,Frederick Christian,"Frederick Christian, Elector of Saxony"
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Prince Maximilian of Saxony,Prince Maximilian of Saxony
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,qwen,B,nested89,C_R,1.4449424743652344,0.0,0.0,False,True,8,56,Prince Maximilian of Saxony,Prince Maximilian of Saxony
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,qwen,B,nested89,exact_minus_top3,1.2779121398925781,0.0,0.0,False,True,56,28,Prince Maximilian of Saxony,Prince Maximilian of Saxony
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,qwen,B,nested89,exact_minus_MMR3,0.9155020713806152,0.0,0.0,False,True,56,26,Prince Maximilian of Saxony,Prince Maximilian of Saxony
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,"Frederick Christian, Elector of Saxony","Frederick Christian, Elector of Saxony"
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,gemma,B,nested89,C_R,1.4449424743652344,0.0,0.0,False,True,8,56,"Frederick Christian, Elector of Saxony","Frederick Christian, Elector of Saxony"
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,gemma,B,nested89,exact_minus_top3,1.2779121398925781,0.0,0.0,False,True,56,28,"Frederick Christian, Elector of Saxony","Frederick Christian, Elector of Saxony"
+2wikimultihopqa,6a6283f20bb011ebab90acde48001122,gemma,B,nested89,exact_minus_MMR3,0.9155020713806152,0.22222222222222224,0.0,True,True,56,26,"Frederick Christian, Elector of Saxony",Frederick Christian
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,"November 22, 1959","November 22, 1959"
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,qwen,A,nested89,C_R,0.048714637756347656,0.0,0.0,True,True,32,56,Information not provided in the evidence.,"November 22, 1959"
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.8752336502075195,0.0,0.0,False,True,56,41,"November 22, 1959","November 22, 1959"
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,1.0485725402832031,-0.13333333333333333,0.0,True,True,56,52,"November 22, 1959",No information provided about the director's place of death for the film Spangles (1926).
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,"November 22, 1959","November 22, 1959"
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,gemma,A,nested89,C_R,0.048714637756347656,0.0,0.0,True,True,32,56,The evidence does not state where the director died.,"November 22, 1959"
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.8752336502075195,0.0,0.0,True,True,56,41,"November 22, 1959",UCLA
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,1.0485725402832031,0.0,0.0,True,True,56,52,"November 22, 1959",UCLA
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,50,50,"November 22, 1959","November 22, 1959"
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,qwen,B,nested89,C_R,0.10721111297607422,0.0,0.0,False,True,48,50,"November 22, 1959","November 22, 1959"
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.8164792060852051,0.0,0.0,False,True,50,49,"November 22, 1959","November 22, 1959"
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,1.0978732109069824,0.0,0.0,True,True,50,44,"November 22, 1959",Information not found in the provided evidence.
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,50,50,UCLA,UCLA
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,gemma,B,nested89,C_R,0.10721111297607422,0.0,0.0,False,True,48,50,UCLA,UCLA
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.8164792060852051,0.0,0.0,False,True,50,49,UCLA,UCLA
+2wikimultihopqa,6b8c9bb60bdb11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,1.0978732109069824,0.0,0.0,False,True,50,44,UCLA,UCLA
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.8375883102416992,1.0,1.0,True,True,41,13,Sydney,Information not available in the provided evidence.
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.8375883102416992,1.0,1.0,True,True,41,13,Sydney,Israel
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.8375883102416992,1.0,1.0,True,True,41,13,Sydney,Information not available in the provided evidence.
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,41,41,Sydney,Sydney
+2wikimultihopqa,75191a4e0bde11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.8375883102416992,1.0,1.0,True,True,41,13,Sydney,Israel
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,38,38,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,38,38,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,38,38,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,38,38,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,38,38,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,38,38,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,56,56,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,56,56,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,No,No
+2wikimultihopqa,80c2cafa08d911ebbd9cac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,No,No
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,No information provided about the director's birthplace.,No information provided about the director's birthplace.
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,52,52,No information provided about the director's birthplace.,No information provided about the director's birthplace.
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,52,52,No information provided about the director's birthplace.,No information provided about the director's birthplace.
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.5541667938232422,0.0,0.0,True,True,52,38,No information provided about the director's birthplace.,Information not provided in the given evidence.
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Fredrikstad,Fredrikstad
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,52,52,Fredrikstad,Fredrikstad
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,52,52,Fredrikstad,Fredrikstad
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.5541667938232422,0.0,0.0,True,True,52,38,Fredrikstad,Israel
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,No information provided about the director's birthplace.,No information provided about the director's birthplace.
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,52,52,No information provided about the director's birthplace.,No information provided about the director's birthplace.
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,52,52,No information provided about the director's birthplace.,No information provided about the director's birthplace.
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.5541667938232422,0.0,0.0,True,True,52,38,No information provided about the director's birthplace.,Information not provided in the given evidence.
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Fredrikstad,Fredrikstad
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,52,52,Fredrikstad,Fredrikstad
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,52,52,Fredrikstad,Fredrikstad
+2wikimultihopqa,850c2ecc0bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.5541667938232422,0.0,0.0,True,True,52,38,Fredrikstad,Israel
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Holiday In Tyrol,Holiday In Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,qwen,A,nested89,C_R,0.048195838928222656,0.0,0.0,False,True,3,35,Holiday In Tyrol,Holiday In Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.04793739318847656,0.0,0.0,False,True,35,11,Holiday In Tyrol,Holiday In Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.07205629348754883,0.0,0.0,False,True,35,19,Holiday In Tyrol,Holiday In Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Holiday in Tyrol,Holiday in Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,gemma,A,nested89,C_R,0.048195838928222656,0.0,0.0,False,True,3,35,Holiday in Tyrol,Holiday in Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.04793739318847656,0.0,0.0,False,True,35,11,Holiday in Tyrol,Holiday in Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.07205629348754883,0.0,0.0,False,True,35,19,Holiday in Tyrol,Holiday in Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Holiday In Tyrol,Holiday In Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,qwen,B,nested89,C_R,0.006384849548339844,0.0,0.0,False,True,3,7,Holiday In Tyrol,Holiday In Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.09138679504394531,0.0,0.0,False,True,7,19,Holiday In Tyrol,Holiday In Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,7,7,Holiday In Tyrol,Holiday In Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Holiday in Tyrol,Holiday in Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,gemma,B,nested89,C_R,0.006384849548339844,0.0,0.0,False,True,3,7,Holiday in Tyrol,Holiday in Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.09138679504394531,0.0,0.0,False,True,7,19,Holiday in Tyrol,Holiday in Tyrol
+2wikimultihopqa,8bb8b730085211ebbd58ac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,7,7,Holiday in Tyrol,Holiday in Tyrol
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Information not provided in the given evidence.,Information not provided in the given evidence.
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Information not provided in the given evidence.,Information not provided in the given evidence.
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,1.5008416771888733,0.0,0.0,True,True,44,25,Information not provided in the given evidence.,"April 19, 2007"
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,1.3473601341247559,0.0,0.0,False,True,44,11,Information not provided in the given evidence.,Information not provided in the given evidence.
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Alice Springs,Alice Springs
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Alice Springs,Alice Springs
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,1.5008416771888733,0.0,0.0,True,True,44,25,Alice Springs,"April 19, 2007"
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,1.3473601341247559,0.0,0.0,True,True,44,11,Alice Springs,Beaulieu-sur-Loire
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,28,28,"April 19, 2007","April 19, 2007"
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,28,28,"April 19, 2007","April 19, 2007"
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,1.2011658549308777,0.0,0.0,False,True,28,13,"April 19, 2007","April 19, 2007"
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.9636267423629761,0.0,0.0,True,True,28,37,"April 19, 2007",Information not provided in the given evidence.
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,28,28,"Bentonville, Arkansas","Bentonville, Arkansas"
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,28,28,"Bentonville, Arkansas","Bentonville, Arkansas"
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,1.2011658549308777,1.0,1.0,True,True,28,13,"Bentonville, Arkansas","April 19, 2007"
+2wikimultihopqa,d89353380bdd11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.9636267423629761,1.0,1.0,True,True,28,37,"Bentonville, Arkansas","She died in Wellesley, Massachusetts."
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Qing dynasty,Qing dynasty
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,qwen,A,nested89,C_R,0.13173449039459229,-0.19999999999999996,-1.0,True,True,36,52,Qing dynasty China,Qing dynasty
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,1.344247229397297,0.33333333333333337,1.0,True,True,52,41,Qing dynasty,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,1.344247229397297,0.33333333333333337,1.0,True,True,52,41,Qing dynasty,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,China,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,gemma,A,nested89,C_R,0.13173449039459229,0.0,0.0,False,True,36,52,China,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,1.344247229397297,0.0,0.0,False,True,52,41,China,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,1.344247229397297,0.0,0.0,False,True,52,41,China,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,26,26,Qing dynasty,Qing dynasty
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,qwen,B,nested89,C_R,0.171228289604187,-0.19999999999999996,-1.0,True,True,18,26,Qing dynasty China,Qing dynasty
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,1.340472251176834,0.33333333333333337,1.0,True,True,26,21,Qing dynasty,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,1.340472251176834,0.33333333333333337,1.0,True,True,26,21,Qing dynasty,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,26,26,China,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,gemma,B,nested89,C_R,0.171228289604187,0.0,0.0,False,True,18,26,China,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,1.340472251176834,0.0,0.0,False,True,26,21,China,China
+2wikimultihopqa,df90c8440bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,1.340472251176834,0.0,0.0,False,True,26,21,China,China
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Allá En El Norte,Allá En El Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Allá En El Norte,Allá En El Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,Allá En El Norte,Allá En El Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,Allá En El Norte,Allá En El Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Allá en el Norte,Allá en el Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Allá en el Norte,Allá en el Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,Allá en el Norte,Allá en el Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,Allá en el Norte,Allá en el Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Allá En El Norte,Allá En El Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Allá En El Norte,Allá En El Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,Allá En El Norte,Allá En El Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,Allá En El Norte,Allá En El Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Allá en el Norte,Allá en el Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Allá en el Norte,Allá en el Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,Allá en el Norte,Allá en el Norte
+2wikimultihopqa,e08e5e5008d311ebbd96ac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,Allá en el Norte,Allá en el Norte
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,9 July 1956,9 July 1956
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,56,56,9 July 1956,9 July 1956
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.3147149085998535,0.3333333333333333,0.0,True,True,56,26,9 July 1956,1950
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.8888082504272461,0.3333333333333333,0.0,True,True,56,50,9 July 1956,1950
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,9 July 1956,9 July 1956
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,56,56,9 July 1956,9 July 1956
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.3147149085998535,0.3333333333333333,0.0,True,True,56,26,9 July 1956,13 November 2015
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.8888082504272461,0.3333333333333333,0.0,True,True,56,50,9 July 1956,1950
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,9 July 1956,9 July 1956
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,56,56,9 July 1956,9 July 1956
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.3147149085998535,0.3333333333333333,0.0,True,True,56,26,9 July 1956,1950
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.8888082504272461,0.3333333333333333,0.0,True,True,56,50,9 July 1956,1950
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,9 July 1956,9 July 1956
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,56,56,9 July 1956,9 July 1956
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.3147149085998535,0.3333333333333333,0.0,True,True,56,26,9 July 1956,13 November 2015
+2wikimultihopqa,e4d4d9d40bdb11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.8888082504272461,0.3333333333333333,0.0,True,True,56,50,9 July 1956,1950
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,52,52,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,52,52,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,qwen,A,nested89,exact_minus_MMR3,1.110405445098877,0.0,0.0,False,True,52,22,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,52,52,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,52,52,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,gemma,A,nested89,exact_minus_MMR3,1.110405445098877,0.0,0.0,False,True,52,22,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,26,26,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,26,26,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,qwen,B,nested89,exact_minus_top3,0.3819875717163086,0.0,0.0,False,True,26,50,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,26,26,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,26,26,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,26,26,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,gemma,B,nested89,exact_minus_top3,0.3819875717163086,0.0,0.0,False,True,26,50,No,No
+2wikimultihopqa,e9d3600a087111ebbd64ac1f6bf848b6,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,26,26,No,No
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,9 October 1669,9 October 1669
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,qwen,A,nested89,C_R,0.44825267791748047,-1.0,-1.0,True,True,4,52,The evidence does not provide the date of birth of Augustus Louis's mother.,9 October 1669
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,1.155034065246582,1.0,1.0,True,True,52,13,9 October 1669,15 September 1708
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,1.155034065246582,1.0,1.0,True,True,52,13,9 October 1669,15 September 1708
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,9 October 1669,9 October 1669
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,gemma,A,nested89,C_R,0.44825267791748047,-0.6666666666666667,-1.0,True,True,4,52,9 June 1697,9 October 1669
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,1.155034065246582,1.0,1.0,True,True,52,13,9 October 1669,15 September 1708
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,1.155034065246582,1.0,1.0,True,True,52,13,9 October 1669,15 September 1708
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,4 December 1700,4 December 1700
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,qwen,B,nested89,C_R,0.2411184310913086,0.0,0.0,True,True,4,52,The evidence does not provide the date of birth of Augustus Louis's mother.,4 December 1700
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,1.362168312072754,0.0,0.0,True,True,52,13,4 December 1700,15 September 1708
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,1.362168312072754,0.0,0.0,True,True,52,13,4 December 1700,15 September 1708
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,4 December 1700,4 December 1700
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,gemma,B,nested89,C_R,0.2411184310913086,0.3333333333333333,0.0,True,True,4,52,9 June 1697,4 December 1700
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,1.362168312072754,0.0,0.0,True,True,52,13,4 December 1700,15 September 1708
+2wikimultihopqa,f7ec568e0bd911eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,1.362168312072754,0.0,0.0,True,True,52,13,4 December 1700,15 September 1708
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,38,38,"la Riera de Gaià, Catalonia","la Riera de Gaià, Catalonia"
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,38,38,"la Riera de Gaià, Catalonia","la Riera de Gaià, Catalonia"
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,3.3408408164978027,0.888888888888889,0.0,True,True,38,7,"la Riera de Gaià, Catalonia","Rome, Italy"
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,3.3408408164978027,0.888888888888889,0.0,True,True,38,7,"la Riera de Gaià, Catalonia","Rome, Italy"
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,38,38,The Chambermaid on the Titanic,The Chambermaid on the Titanic
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,38,38,The Chambermaid on the Titanic,The Chambermaid on the Titanic
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,3.3408408164978027,0.0,0.0,True,True,38,7,The Chambermaid on the Titanic,Spain
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,3.3408408164978027,0.0,0.0,True,True,38,7,The Chambermaid on the Titanic,Spain
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,"la Riera de Gaià, Catalonia","la Riera de Gaià, Catalonia"
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,"la Riera de Gaià, Catalonia","la Riera de Gaià, Catalonia"
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,3.30137836933136,0.888888888888889,0.0,True,True,44,14,"la Riera de Gaià, Catalonia","Rome, Italy"
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,3.720629334449768,0.888888888888889,0.0,True,True,44,7,"la Riera de Gaià, Catalonia",Information not available in provided evidence.
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,The Chambermaid on the Titanic,The Chambermaid on the Titanic
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,The Chambermaid on the Titanic,The Chambermaid on the Titanic
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,3.30137836933136,0.0,0.0,True,True,44,14,The Chambermaid on the Titanic,Spain
+2wikimultihopqa,fa6a719c0bda11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,3.720629334449768,0.0,0.0,True,True,44,7,The Chambermaid on the Titanic,France
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,"Salthill, England","Salthill, England"
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,qwen,A,nested89,C_R,0.1383906602859497,-0.6666666666666666,0.0,True,True,33,49,France,"Salthill, England"
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,qwen,A,nested89,exact_minus_top3,0.5193314552307129,-0.33333333333333337,-1.0,True,True,49,25,"Salthill, England",England
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,qwen,A,nested89,exact_minus_MMR3,0.230932354927063,0.6666666666666666,0.0,True,True,49,35,"Salthill, England",France
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,"Salthill, England","Salthill, England"
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,gemma,A,nested89,C_R,0.1383906602859497,-0.6666666666666666,0.0,True,True,33,49,France,"Salthill, England"
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,gemma,A,nested89,exact_minus_top3,0.5193314552307129,-0.33333333333333337,-1.0,True,True,49,25,"Salthill, England",England
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,gemma,A,nested89,exact_minus_MMR3,0.230932354927063,0.6666666666666666,0.0,True,True,49,35,"Salthill, England",France
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,qwen,B,nested89,J_R,0.21591973304748535,0.6666666666666666,0.0,True,True,37,13,"Salthill, England",The information provided does not specify where Françoise Barbaroux's husband died.
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,qwen,B,nested89,C_R,0.03245711326599121,-0.6666666666666666,0.0,True,True,1,37,France,"Salthill, England"
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,qwen,B,nested89,exact_minus_top3,0.3025808334350586,-0.33333333333333337,-1.0,True,True,37,41,"Salthill, England",England
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,qwen,B,nested89,exact_minus_MMR3,0.21491289138793945,0.6666666666666666,0.0,True,True,37,19,"Salthill, England",France
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,gemma,B,nested89,J_R,0.21591973304748535,0.6666666666666666,0.0,True,True,37,13,"Salthill, England",Belgium
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,gemma,B,nested89,C_R,0.03245711326599121,-0.6666666666666666,0.0,True,True,1,37,France,"Salthill, England"
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,gemma,B,nested89,exact_minus_top3,0.3025808334350586,0.0,0.0,False,True,37,41,"Salthill, England","Salthill, England"
+2wikimultihopqa,fdc0221c0bdd11eba7f7acde48001122,gemma,B,nested89,exact_minus_MMR3,0.21491289138793945,0.6666666666666666,0.0,True,True,37,19,"Salthill, England",France
+hotpotqa,5a7324205542994cef4bc478,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,qwen,A,nested89,C_R,0.15787792205810547,0.0,0.0,False,True,17,49,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,qwen,A,nested89,exact_minus_top3,0.2383584976196289,0.0,0.0,False,True,49,25,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,qwen,A,nested89,exact_minus_MMR3,0.2383584976196289,0.0,0.0,False,True,49,25,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,gemma,A,nested89,C_R,0.15787792205810547,0.0,0.0,False,True,17,49,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,gemma,A,nested89,exact_minus_top3,0.2383584976196289,0.0,0.0,False,True,49,25,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,gemma,A,nested89,exact_minus_MMR3,0.2383584976196289,0.0,0.0,False,True,49,25,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,qwen,B,nested89,C_R,0.15787792205810547,0.0,0.0,False,True,17,49,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,qwen,B,nested89,exact_minus_top3,0.2383584976196289,0.0,0.0,False,True,49,25,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,qwen,B,nested89,exact_minus_MMR3,0.2383584976196289,0.0,0.0,False,True,49,25,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,gemma,B,nested89,C_R,0.15787792205810547,0.0,0.0,False,True,17,49,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,gemma,B,nested89,exact_minus_top3,0.2383584976196289,0.0,0.0,False,True,49,25,Rumi,Rumi
+hotpotqa,5a7324205542994cef4bc478,gemma,B,nested89,exact_minus_MMR3,0.2383584976196289,0.0,0.0,False,True,49,25,Rumi,Rumi
+hotpotqa,5a7633ff5542994ccc918712,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,25,25,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,25,25,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,qwen,A,nested89,exact_minus_top3,0.2570171356201172,0.0,0.0,False,True,25,13,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,qwen,A,nested89,exact_minus_MMR3,0.2570171356201172,0.0,0.0,False,True,25,13,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,25,25,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,25,25,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,gemma,A,nested89,exact_minus_top3,0.2570171356201172,0.0,0.0,False,True,25,13,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,gemma,A,nested89,exact_minus_MMR3,0.2570171356201172,0.0,0.0,False,True,25,13,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,25,25,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,25,25,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,qwen,B,nested89,exact_minus_top3,0.2570171356201172,0.0,0.0,False,True,25,13,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,qwen,B,nested89,exact_minus_MMR3,0.2570171356201172,0.0,0.0,False,True,25,13,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,25,25,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,25,25,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,gemma,B,nested89,exact_minus_top3,0.2570171356201172,0.0,0.0,False,True,25,13,1932,1932
+hotpotqa,5a7633ff5542994ccc918712,gemma,B,nested89,exact_minus_MMR3,0.2570171356201172,0.0,0.0,False,True,25,13,1932,1932
+hotpotqa,5a7741775542994aec3b724f,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,22,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,qwen,A,nested89,C_R,0.70977783203125,0.0,0.0,False,True,6,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,22,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,22,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,22,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,gemma,A,nested89,C_R,0.70977783203125,0.0,0.0,False,True,6,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,22,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,22,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,22,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,qwen,B,nested89,C_R,0.40268898010253906,0.0,0.0,False,True,6,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,qwen,B,nested89,exact_minus_top3,0.2894105911254883,0.0,0.0,False,True,22,38,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,qwen,B,nested89,exact_minus_MMR3,0.2894105911254883,0.0,0.0,False,True,22,38,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,22,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,gemma,B,nested89,C_R,0.40268898010253906,0.0,0.0,False,True,6,22,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,gemma,B,nested89,exact_minus_top3,0.2894105911254883,0.0,0.0,False,True,22,38,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7741775542994aec3b724f,gemma,B,nested89,exact_minus_MMR3,0.2894105911254883,0.0,0.0,False,True,22,38,Aubrey Posen,Aubrey Posen
+hotpotqa,5a7790ed5542992a6e59defb,qwen,A,nested89,J_R,0.5776410102844238,0.0,0.0,False,True,25,19,"dice, cards, boards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,25,25,"dice, cards, boards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,25,25,"dice, cards, boards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,qwen,A,nested89,exact_minus_MMR3,2.091442346572876,0.0,0.0,False,True,25,49,"dice, cards, boards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,gemma,A,nested89,J_R,0.5776410102844238,0.0,0.0,True,True,25,19,"dice, boards, cards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,25,25,"dice, boards, cards","dice, boards, cards"
+hotpotqa,5a7790ed5542992a6e59defb,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,25,25,"dice, boards, cards","dice, boards, cards"
+hotpotqa,5a7790ed5542992a6e59defb,gemma,A,nested89,exact_minus_MMR3,2.091442346572876,0.0,0.0,True,True,25,49,"dice, boards, cards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,qwen,B,nested89,J_R,0.555755615234375,0.0,0.0,False,True,13,11,"dice, cards, boards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,"dice, cards, boards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,13,13,"dice, cards, boards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,qwen,B,nested89,exact_minus_MMR3,2.168372869491577,0.0,0.0,False,True,13,25,"dice, cards, boards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,gemma,B,nested89,J_R,0.555755615234375,0.0,0.0,True,True,13,11,"dice, boards, cards","dice, cards, boards"
+hotpotqa,5a7790ed5542992a6e59defb,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,"dice, boards, cards","dice, boards, cards"
+hotpotqa,5a7790ed5542992a6e59defb,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,13,13,"dice, boards, cards","dice, boards, cards"
+hotpotqa,5a7790ed5542992a6e59defb,gemma,B,nested89,exact_minus_MMR3,2.168372869491577,0.0,0.0,True,True,13,25,"dice, boards, cards","dice, cards, boards"
+hotpotqa,5a7b735c5542997c3ec9718a,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,qwen,A,nested89,exact_minus_top3,3.026726722717285,0.0,0.0,False,True,42,35,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,gemma,A,nested89,exact_minus_top3,3.026726722717285,0.0,0.0,False,True,42,35,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,qwen,B,nested89,exact_minus_top3,3.026726722717285,0.0,0.0,False,True,42,35,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,gemma,B,nested89,exact_minus_top3,3.026726722717285,0.0,0.0,False,True,42,35,Hino Motors,Hino Motors
+hotpotqa,5a7b735c5542997c3ec9718a,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,42,42,Hino Motors,Hino Motors
+hotpotqa,5a7f9cb55542995d8a8ddec1,qwen,A,nested89,J_R,0.14891815185546875,0.0,0.0,False,True,11,44,2002,2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,2002,2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,qwen,A,nested89,exact_minus_top3,0.4810009002685547,0.0,0.0,False,True,11,14,2002,2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,qwen,A,nested89,exact_minus_MMR3,0.4810009002685547,0.0,0.0,False,True,11,14,2002,2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,gemma,A,nested89,J_R,0.14891815185546875,-0.33333333333333337,-1.0,True,True,11,44,"2002, 1992",2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,"2002, 1992","2002, 1992"
+hotpotqa,5a7f9cb55542995d8a8ddec1,gemma,A,nested89,exact_minus_top3,0.4810009002685547,-0.33333333333333337,-1.0,True,True,11,14,"2002, 1992",2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,gemma,A,nested89,exact_minus_MMR3,0.4810009002685547,-0.33333333333333337,-1.0,True,True,11,14,"2002, 1992",2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,qwen,B,nested89,J_R,0.4810009002685547,0.0,0.0,False,True,11,14,2002,2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,11,11,2002,2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,qwen,B,nested89,exact_minus_top3,0.4810009002685547,0.0,0.0,False,True,11,14,2002,2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,qwen,B,nested89,exact_minus_MMR3,0.4810009002685547,0.0,0.0,False,True,11,14,2002,2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,gemma,B,nested89,J_R,0.4810009002685547,-0.33333333333333337,-1.0,True,True,11,14,"2002, 1992",2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,11,11,"2002, 1992","2002, 1992"
+hotpotqa,5a7f9cb55542995d8a8ddec1,gemma,B,nested89,exact_minus_top3,0.4810009002685547,-0.33333333333333337,-1.0,True,True,11,14,"2002, 1992",2002
+hotpotqa,5a7f9cb55542995d8a8ddec1,gemma,B,nested89,exact_minus_MMR3,0.4810009002685547,-0.33333333333333337,-1.0,True,True,11,14,"2002, 1992",2002
+hotpotqa,5a82edae55429966c78a6a9f,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,qwen,A,nested89,exact_minus_top3,0.7910442352294922,0.0,0.0,False,True,52,37,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,gemma,A,nested89,exact_minus_top3,0.7910442352294922,-1.0,-1.0,True,True,52,37,1985,1986
+hotpotqa,5a82edae55429966c78a6a9f,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,qwen,B,nested89,exact_minus_top3,0.7910442352294922,0.0,0.0,False,True,52,37,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a82edae55429966c78a6a9f,gemma,B,nested89,exact_minus_top3,0.7910442352294922,-1.0,-1.0,True,True,52,37,1985,1986
+hotpotqa,5a82edae55429966c78a6a9f,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,52,52,1985,1985
+hotpotqa,5a863b87554299211dda2ab7,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,26,26,"Samuel Burl ""Sam"" Kinison","Samuel Burl ""Sam"" Kinison"
+hotpotqa,5a863b87554299211dda2ab7,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,26,26,"Samuel Burl ""Sam"" Kinison","Samuel Burl ""Sam"" Kinison"
+hotpotqa,5a863b87554299211dda2ab7,qwen,A,nested89,exact_minus_top3,0.12380790710449219,-0.33333333333333337,-1.0,True,True,26,22,"Samuel Burl ""Sam"" Kinison",Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,qwen,A,nested89,exact_minus_MMR3,0.12380790710449219,-0.33333333333333337,-1.0,True,True,26,22,"Samuel Burl ""Sam"" Kinison",Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,26,26,Sam Kinison,Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,26,26,Sam Kinison,Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,gemma,A,nested89,exact_minus_top3,0.12380790710449219,0.0,0.0,False,True,26,22,Sam Kinison,Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,gemma,A,nested89,exact_minus_MMR3,0.12380790710449219,0.0,0.0,False,True,26,22,Sam Kinison,Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,"Samuel Burl ""Sam"" Kinison","Samuel Burl ""Sam"" Kinison"
+hotpotqa,5a863b87554299211dda2ab7,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,52,52,"Samuel Burl ""Sam"" Kinison","Samuel Burl ""Sam"" Kinison"
+hotpotqa,5a863b87554299211dda2ab7,qwen,B,nested89,exact_minus_top3,0.10229015350341797,-0.33333333333333337,-1.0,True,True,52,44,"Samuel Burl ""Sam"" Kinison",Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,qwen,B,nested89,exact_minus_MMR3,0.10229015350341797,-0.33333333333333337,-1.0,True,True,52,44,"Samuel Burl ""Sam"" Kinison",Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Sam Kinison,Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,52,52,Sam Kinison,Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,gemma,B,nested89,exact_minus_top3,0.10229015350341797,0.0,0.0,False,True,52,44,Sam Kinison,Sam Kinison
+hotpotqa,5a863b87554299211dda2ab7,gemma,B,nested89,exact_minus_MMR3,0.10229015350341797,0.0,0.0,False,True,52,44,Sam Kinison,Sam Kinison
+hotpotqa,5a872e8e5542991e7718170c,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,41,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,qwen,A,nested89,C_R,0.2632026672363281,0.0,0.0,False,True,1,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,qwen,A,nested89,exact_minus_top3,0.49888134002685547,0.0,0.0,False,True,41,35,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,41,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,41,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,gemma,A,nested89,C_R,0.2632026672363281,0.0,0.0,False,True,1,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,gemma,A,nested89,exact_minus_top3,0.49888134002685547,0.0,0.0,False,True,41,35,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,41,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,41,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,qwen,B,nested89,C_R,0.2632026672363281,0.0,0.0,False,True,1,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,qwen,B,nested89,exact_minus_top3,0.49888134002685547,0.0,0.0,False,True,41,35,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,41,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,41,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,gemma,B,nested89,C_R,0.2632026672363281,0.0,0.0,False,True,1,41,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,gemma,B,nested89,exact_minus_top3,0.49888134002685547,0.0,0.0,False,True,41,35,portraits,portraits
+hotpotqa,5a872e8e5542991e7718170c,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,41,41,portraits,portraits
+hotpotqa,5a89bbb05542992e4fca83a3,qwen,A,nested89,J_R,0.07939696311950684,0.0,0.0,True,True,41,49,Retta,Courteney Cox
+hotpotqa,5a89bbb05542992e4fca83a3,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,41,41,Retta,Retta
+hotpotqa,5a89bbb05542992e4fca83a3,qwen,A,nested89,exact_minus_top3,0.7331986427307129,0.0,0.0,True,True,41,26,Retta,Billy Eichner
+hotpotqa,5a89bbb05542992e4fca83a3,qwen,A,nested89,exact_minus_MMR3,0.6730453968048096,0.0,0.0,True,True,41,50,Retta,Courteney Cox
+hotpotqa,5a89bbb05542992e4fca83a3,gemma,A,nested89,J_R,0.07939696311950684,0.0,0.0,False,True,41,49,Nick Offerman,Nick Offerman
+hotpotqa,5a89bbb05542992e4fca83a3,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,41,41,Nick Offerman,Nick Offerman
+hotpotqa,5a89bbb05542992e4fca83a3,gemma,A,nested89,exact_minus_top3,0.7331986427307129,1.0,1.0,True,True,41,26,Nick Offerman,Ron Swanson
+hotpotqa,5a89bbb05542992e4fca83a3,gemma,A,nested89,exact_minus_MMR3,0.6730453968048096,0.0,0.0,False,True,41,50,Nick Offerman,Nick Offerman
+hotpotqa,5a89bbb05542992e4fca83a3,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Retta,Retta
+hotpotqa,5a89bbb05542992e4fca83a3,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,49,49,Retta,Retta
+hotpotqa,5a89bbb05542992e4fca83a3,qwen,B,nested89,exact_minus_top3,0.5235943794250488,0.0,0.0,True,True,49,52,Retta,Billy Eichner
+hotpotqa,5a89bbb05542992e4fca83a3,qwen,B,nested89,exact_minus_MMR3,0.5235943794250488,0.0,0.0,True,True,49,52,Retta,Billy Eichner
+hotpotqa,5a89bbb05542992e4fca83a3,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Donna Meagle,Donna Meagle
+hotpotqa,5a89bbb05542992e4fca83a3,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,49,49,Donna Meagle,Donna Meagle
+hotpotqa,5a89bbb05542992e4fca83a3,gemma,B,nested89,exact_minus_top3,0.5235943794250488,0.0,0.0,True,True,49,52,Donna Meagle,Craig Middlebrooks
+hotpotqa,5a89bbb05542992e4fca83a3,gemma,B,nested89,exact_minus_MMR3,0.5235943794250488,0.0,0.0,True,True,49,52,Donna Meagle,Craig Middlebrooks
+hotpotqa,5a8a5dd055429970aeb702c7,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,13,13,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,qwen,A,nested89,C_R,0.1953120231628418,0.0,0.0,False,True,5,13,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,13,13,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,13,13,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,13,13,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,gemma,A,nested89,C_R,0.1953120231628418,-1.0,-1.0,True,True,5,13,Steve Buscemi,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,13,13,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,13,13,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,25,25,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,qwen,B,nested89,C_R,0.20679855346679688,0.0,0.0,False,True,9,25,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,25,25,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,25,25,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,25,25,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,gemma,B,nested89,C_R,0.20679855346679688,-1.0,-1.0,True,True,9,25,Steve Buscemi,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,25,25,Randall Boggs,Randall Boggs
+hotpotqa,5a8a5dd055429970aeb702c7,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,25,25,Randall Boggs,Randall Boggs
+hotpotqa,5a8a7d2b55429930ff3c0dfc,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,qwen,A,nested89,C_R,0.004009723663330078,0.0,0.0,False,True,40,56,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,qwen,A,nested89,exact_minus_top3,0.1123971939086914,0.0,0.0,False,True,56,41,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,qwen,A,nested89,exact_minus_MMR3,0.8970379829406738,0.0,0.0,False,True,56,44,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,gemma,A,nested89,C_R,0.004009723663330078,0.0,0.0,False,True,40,56,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,gemma,A,nested89,exact_minus_top3,0.1123971939086914,0.0,0.0,False,True,56,41,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,gemma,A,nested89,exact_minus_MMR3,0.8970379829406738,0.0,0.0,False,True,56,44,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,qwen,B,nested89,exact_minus_MMR3,0.8792815208435059,0.0,0.0,False,True,44,38,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,No,No
+hotpotqa,5a8a7d2b55429930ff3c0dfc,gemma,B,nested89,exact_minus_MMR3,0.8792815208435059,0.0,0.0,False,True,44,38,No,No
+hotpotqa,5a8d50fb55429941ae14dfa2,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,75 mi,75 mi
+hotpotqa,5a8d50fb55429941ae14dfa2,qwen,A,nested89,C_R,0.1119527816772461,0.0,0.0,False,True,24,56,75 mi,75 mi
+hotpotqa,5a8d50fb55429941ae14dfa2,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,75 mi,75 mi
+hotpotqa,5a8d50fb55429941ae14dfa2,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,75 mi,75 mi
+hotpotqa,5a8d50fb55429941ae14dfa2,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,75,75
+hotpotqa,5a8d50fb55429941ae14dfa2,gemma,A,nested89,C_R,0.1119527816772461,0.0,0.0,False,True,24,56,75,75
+hotpotqa,5a8d50fb55429941ae14dfa2,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,75,75
+hotpotqa,5a8d50fb55429941ae14dfa2,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,75,75
+hotpotqa,5a8d50fb55429941ae14dfa2,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,75 mi,75 mi
+hotpotqa,5a8d50fb55429941ae14dfa2,qwen,B,nested89,C_R,0.10606098175048828,0.0,0.0,False,True,12,44,75 mi,75 mi
+hotpotqa,5a8d50fb55429941ae14dfa2,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,75 mi,75 mi
+hotpotqa,5a8d50fb55429941ae14dfa2,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,75 mi,75 mi
+hotpotqa,5a8d50fb55429941ae14dfa2,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,75,75
+hotpotqa,5a8d50fb55429941ae14dfa2,gemma,B,nested89,C_R,0.10606098175048828,0.0,0.0,False,True,12,44,75,75
+hotpotqa,5a8d50fb55429941ae14dfa2,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,75,75
+hotpotqa,5a8d50fb55429941ae14dfa2,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,75,75
+hotpotqa,5a90b6985542990a984936c2,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,22,22,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,qwen,A,nested89,C_R,0.4234285354614258,0.0,0.0,False,True,20,22,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,qwen,A,nested89,exact_minus_top3,0.5640907287597656,0.0,0.0,False,True,22,28,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,qwen,A,nested89,exact_minus_MMR3,0.5640907287597656,0.0,0.0,False,True,22,28,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,22,22,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,gemma,A,nested89,C_R,0.4234285354614258,0.0,0.0,False,True,20,22,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,gemma,A,nested89,exact_minus_top3,0.5640907287597656,0.0,0.0,False,True,22,28,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,gemma,A,nested89,exact_minus_MMR3,0.5640907287597656,0.0,0.0,False,True,22,28,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,19,19,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,qwen,B,nested89,C_R,0.5559730529785156,0.0,0.0,False,True,18,19,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,19,19,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,19,19,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,19,19,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,gemma,B,nested89,C_R,0.5559730529785156,0.0,0.0,False,True,18,19,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,19,19,The Royal Family,The Royal Family
+hotpotqa,5a90b6985542990a984936c2,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,19,19,The Royal Family,The Royal Family
+hotpotqa,5ab53ef1554299488d4d9920,qwen,A,nested89,J_R,0.23526906967163086,0.0,0.0,True,True,22,50,southern,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,qwen,A,nested89,C_R,0.9215431213378906,0.0,0.0,True,True,16,22,Santiago del Estero Province,southern
+hotpotqa,5ab53ef1554299488d4d9920,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,22,22,southern,southern
+hotpotqa,5ab53ef1554299488d4d9920,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,22,22,southern,southern
+hotpotqa,5ab53ef1554299488d4d9920,gemma,A,nested89,J_R,0.23526906967163086,0.0,0.0,False,True,22,50,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,gemma,A,nested89,C_R,0.9215431213378906,0.0,0.0,False,True,16,22,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,22,22,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,22,22,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,qwen,B,nested89,J_R,0.307558536529541,0.0,0.0,False,True,21,49,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,qwen,B,nested89,C_R,0.854034423828125,0.0,0.0,False,True,16,21,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,qwen,B,nested89,exact_minus_top3,0.05873894691467285,0.0,0.0,True,True,21,19,Santiago del Estero Province,southern
+hotpotqa,5ab53ef1554299488d4d9920,qwen,B,nested89,exact_minus_MMR3,0.05873894691467285,0.0,0.0,True,True,21,19,Santiago del Estero Province,southern
+hotpotqa,5ab53ef1554299488d4d9920,gemma,B,nested89,J_R,0.307558536529541,0.0,0.0,False,True,21,49,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,gemma,B,nested89,C_R,0.854034423828125,0.0,0.0,False,True,16,21,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,gemma,B,nested89,exact_minus_top3,0.05873894691467285,0.0,0.0,False,True,21,19,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab53ef1554299488d4d9920,gemma,B,nested89,exact_minus_MMR3,0.05873894691467285,0.0,0.0,False,True,21,19,Santiago del Estero Province,Santiago del Estero Province
+hotpotqa,5ab627d555429953192ad27e,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,qwen,A,nested89,C_R,0.47675228118896484,0.0,0.0,False,True,40,56,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,qwen,A,nested89,exact_minus_top3,1.214935302734375,0.0,0.0,False,True,56,41,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,qwen,A,nested89,exact_minus_MMR3,1.214935302734375,0.0,0.0,False,True,56,41,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,gemma,A,nested89,C_R,0.47675228118896484,0.0,0.0,False,True,40,56,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,gemma,A,nested89,exact_minus_top3,1.214935302734375,0.0,0.0,False,True,56,41,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,gemma,A,nested89,exact_minus_MMR3,1.214935302734375,0.0,0.0,False,True,56,41,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,qwen,B,nested89,C_R,0.46544456481933594,0.0,0.0,False,True,20,52,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,qwen,B,nested89,exact_minus_top3,1.2594184875488281,0.0,0.0,False,True,52,21,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,qwen,B,nested89,exact_minus_MMR3,1.2594184875488281,0.0,0.0,False,True,52,21,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,gemma,B,nested89,C_R,0.46544456481933594,0.0,0.0,False,True,20,52,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,gemma,B,nested89,exact_minus_top3,1.2594184875488281,0.0,0.0,False,True,52,21,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab627d555429953192ad27e,gemma,B,nested89,exact_minus_MMR3,1.2594184875488281,0.0,0.0,False,True,52,21,Dublin Institute of Technology,Dublin Institute of Technology
+hotpotqa,5ab8338155429919ba4e2260,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Ryan Clarke,Ryan Clarke
+hotpotqa,5ab8338155429919ba4e2260,qwen,A,nested89,C_R,0.46755218505859375,0.8,0.0,True,True,24,56,Mark Brayshaw,Ryan Clarke
+hotpotqa,5ab8338155429919ba4e2260,qwen,A,nested89,exact_minus_top3,0.45131492614746094,-0.8,0.0,True,True,56,19,Ryan Clarke,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,qwen,A,nested89,exact_minus_MMR3,0.45131492614746094,-0.8,0.0,True,True,56,19,Ryan Clarke,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Ryan Clarke,Ryan Clarke
+hotpotqa,5ab8338155429919ba4e2260,gemma,A,nested89,C_R,0.46755218505859375,0.0,0.0,True,True,24,56,Sel Murray,Ryan Clarke
+hotpotqa,5ab8338155429919ba4e2260,gemma,A,nested89,exact_minus_top3,0.45131492614746094,-0.8,0.0,True,True,56,19,Ryan Clarke,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,gemma,A,nested89,exact_minus_MMR3,0.45131492614746094,-0.8,0.0,True,True,56,19,Ryan Clarke,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Mark Brayshaw,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,qwen,B,nested89,C_R,0.16466808319091797,-0.4,0.0,True,True,48,49,Angus Brayshaw,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,qwen,B,nested89,exact_minus_top3,0.47441911697387695,0.0,0.0,False,True,49,19,Mark Brayshaw,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,qwen,B,nested89,exact_minus_MMR3,0.47441911697387695,0.0,0.0,False,True,49,19,Mark Brayshaw,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Mark Brayshaw,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,gemma,B,nested89,C_R,0.16466808319091797,-0.4,0.0,True,True,48,49,Ian Brayshaw,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,gemma,B,nested89,exact_minus_top3,0.47441911697387695,0.0,0.0,False,True,49,19,Mark Brayshaw,Mark Brayshaw
+hotpotqa,5ab8338155429919ba4e2260,gemma,B,nested89,exact_minus_MMR3,0.47441911697387695,0.0,0.0,False,True,49,19,Mark Brayshaw,Mark Brayshaw
+hotpotqa,5abba4855542993f40c73b68,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,qwen,A,nested89,C_R,0.6292505264282227,0.0,0.0,False,True,3,7,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,qwen,A,nested89,exact_minus_top3,0.08863162994384766,0.0,0.0,False,True,7,35,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,qwen,A,nested89,exact_minus_MMR3,0.08863162994384766,0.0,0.0,False,True,7,35,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,gemma,A,nested89,C_R,0.6292505264282227,0.0,0.0,False,True,3,7,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,gemma,A,nested89,exact_minus_top3,0.08863162994384766,0.11111111111111105,1.0,True,True,7,35,Mark Neveldine and Brian Taylor,"Mark Neveldine, Brian Taylor"
+hotpotqa,5abba4855542993f40c73b68,gemma,A,nested89,exact_minus_MMR3,0.08863162994384766,0.11111111111111105,1.0,True,True,7,35,Mark Neveldine and Brian Taylor,"Mark Neveldine, Brian Taylor"
+hotpotqa,5abba4855542993f40c73b68,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,qwen,B,nested89,C_R,0.6292505264282227,0.0,0.0,False,True,3,7,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,qwen,B,nested89,exact_minus_top3,0.08863162994384766,0.0,0.0,False,True,7,35,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,qwen,B,nested89,exact_minus_MMR3,0.08863162994384766,0.0,0.0,False,True,7,35,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,gemma,B,nested89,C_R,0.6292505264282227,0.0,0.0,False,True,3,7,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor
+hotpotqa,5abba4855542993f40c73b68,gemma,B,nested89,exact_minus_top3,0.08863162994384766,0.11111111111111105,1.0,True,True,7,35,Mark Neveldine and Brian Taylor,"Mark Neveldine, Brian Taylor"
+hotpotqa,5abba4855542993f40c73b68,gemma,B,nested89,exact_minus_MMR3,0.08863162994384766,0.11111111111111105,1.0,True,True,7,35,Mark Neveldine and Brian Taylor,"Mark Neveldine, Brian Taylor"
+hotpotqa,5abd4fe05542993062266c4e,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Austrian,Austrian
+hotpotqa,5abd4fe05542993062266c4e,qwen,A,nested89,C_R,0.12453031539916992,-1.0,-1.0,True,True,6,38,American,Austrian
+hotpotqa,5abd4fe05542993062266c4e,qwen,A,nested89,exact_minus_top3,0.12192344665527344,1.0,1.0,True,True,38,14,Austrian,American
+hotpotqa,5abd4fe05542993062266c4e,qwen,A,nested89,exact_minus_MMR3,0.44579267501831055,1.0,1.0,True,True,38,22,Austrian,American
+hotpotqa,5abd4fe05542993062266c4e,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,38,38,American,American
+hotpotqa,5abd4fe05542993062266c4e,gemma,A,nested89,C_R,0.12453031539916992,0.0,0.0,False,True,6,38,American,American
+hotpotqa,5abd4fe05542993062266c4e,gemma,A,nested89,exact_minus_top3,0.12192344665527344,0.0,0.0,False,True,38,14,American,American
+hotpotqa,5abd4fe05542993062266c4e,gemma,A,nested89,exact_minus_MMR3,0.44579267501831055,0.0,0.0,False,True,38,22,American,American
+hotpotqa,5abd4fe05542993062266c4e,qwen,B,nested89,J_R,0.0644230842590332,0.0,0.0,True,True,21,14,Dutch,American
+hotpotqa,5abd4fe05542993062266c4e,qwen,B,nested89,C_R,0.18203067779541016,0.0,0.0,True,True,6,21,American,Dutch
+hotpotqa,5abd4fe05542993062266c4e,qwen,B,nested89,exact_minus_top3,0.0644230842590332,0.0,0.0,True,True,21,14,Dutch,American
+hotpotqa,5abd4fe05542993062266c4e,qwen,B,nested89,exact_minus_MMR3,0.3882923126220703,0.0,0.0,True,True,21,22,Dutch,American
+hotpotqa,5abd4fe05542993062266c4e,gemma,B,nested89,J_R,0.0644230842590332,0.0,0.0,True,True,21,14,British,American
+hotpotqa,5abd4fe05542993062266c4e,gemma,B,nested89,C_R,0.18203067779541016,0.0,0.0,True,True,6,21,American,British
+hotpotqa,5abd4fe05542993062266c4e,gemma,B,nested89,exact_minus_top3,0.0644230842590332,0.0,0.0,True,True,21,14,British,American
+hotpotqa,5abd4fe05542993062266c4e,gemma,B,nested89,exact_minus_MMR3,0.3882923126220703,0.0,0.0,True,True,21,22,British,American
+hotpotqa,5abee4ff5542993fe9a41d7d,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,qwen,A,nested89,C_R,0.3482961654663086,0.0,0.0,False,True,34,42,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,42,42,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,qwen,A,nested89,exact_minus_MMR3,0.1268315315246582,0.0,0.0,False,True,42,50,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,gemma,A,nested89,C_R,0.3482961654663086,-0.33333333333333337,-1.0,True,True,34,42,"Orlando, Florida",Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,42,42,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,gemma,A,nested89,exact_minus_MMR3,0.1268315315246582,0.0,0.0,False,True,42,50,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,38,38,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,qwen,B,nested89,exact_minus_top3,0.4724607467651367,0.0,0.0,False,True,38,42,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,38,38,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,38,38,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,gemma,B,nested89,exact_minus_top3,0.4724607467651367,0.0,0.0,False,True,38,42,Orlando,Orlando
+hotpotqa,5abee4ff5542993fe9a41d7d,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,38,38,Orlando,Orlando
+hotpotqa,5ac294b955429921a00aafd0,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,13,13,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,qwen,A,nested89,C_R,0.3893098831176758,0.0,0.0,False,True,9,13,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,qwen,A,nested89,exact_minus_top3,0.4016733169555664,0.0,0.0,False,True,13,11,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,qwen,A,nested89,exact_minus_MMR3,0.4016733169555664,0.0,0.0,False,True,13,11,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,13,13,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,gemma,A,nested89,C_R,0.3893098831176758,0.0,0.0,False,True,9,13,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,gemma,A,nested89,exact_minus_top3,0.4016733169555664,0.0,0.0,False,True,13,11,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,gemma,A,nested89,exact_minus_MMR3,0.4016733169555664,0.0,0.0,False,True,13,11,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,37,37,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,qwen,B,nested89,C_R,0.30161380767822266,0.0,0.0,False,True,5,37,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,qwen,B,nested89,exact_minus_top3,0.578068733215332,0.0,0.0,False,True,37,7,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,qwen,B,nested89,exact_minus_MMR3,0.578068733215332,0.0,0.0,False,True,37,7,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,37,37,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,gemma,B,nested89,C_R,0.30161380767822266,0.0,0.0,False,True,5,37,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,gemma,B,nested89,exact_minus_top3,0.578068733215332,0.0,0.0,False,True,37,7,Macworld,Macworld
+hotpotqa,5ac294b955429921a00aafd0,gemma,B,nested89,exact_minus_MMR3,0.578068733215332,0.0,0.0,False,True,37,7,Macworld,Macworld
+hotpotqa,5ac300905542996773102682,qwen,A,nested89,J_R,0.10251808166503906,-1.0,-1.0,True,True,22,21,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,22,22,The Devils Music,The Devils Music
+hotpotqa,5ac300905542996773102682,qwen,A,nested89,exact_minus_top3,0.42406606674194336,-1.0,-1.0,True,True,22,19,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,qwen,A,nested89,exact_minus_MMR3,0.42406606674194336,-1.0,-1.0,True,True,22,19,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,gemma,A,nested89,J_R,0.10251808166503906,-1.0,-1.0,True,True,22,21,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,22,22,The Devils Music,The Devils Music
+hotpotqa,5ac300905542996773102682,gemma,A,nested89,exact_minus_top3,0.42406606674194336,-1.0,-1.0,True,True,22,19,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,gemma,A,nested89,exact_minus_MMR3,0.42406606674194336,-1.0,-1.0,True,True,22,19,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,qwen,B,nested89,J_R,0.024865150451660156,-1.0,-1.0,True,True,28,26,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,28,28,The Devils Music,The Devils Music
+hotpotqa,5ac300905542996773102682,qwen,B,nested89,exact_minus_top3,0.4291815757751465,-1.0,-1.0,True,True,28,22,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,qwen,B,nested89,exact_minus_MMR3,0.4291815757751465,-1.0,-1.0,True,True,28,22,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,gemma,B,nested89,J_R,0.024865150451660156,-1.0,-1.0,True,True,28,26,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,28,28,The Devils Music,The Devils Music
+hotpotqa,5ac300905542996773102682,gemma,B,nested89,exact_minus_top3,0.4291815757751465,-1.0,-1.0,True,True,28,22,The Devils Music,Cradle of Filth
+hotpotqa,5ac300905542996773102682,gemma,B,nested89,exact_minus_MMR3,0.4291815757751465,-1.0,-1.0,True,True,28,22,The Devils Music,Cradle of Filth
+hotpotqa,5ac38c0755429939154137bb,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,13,13,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,13,13,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,qwen,A,nested89,exact_minus_top3,0.2783784866333008,0.0,0.0,False,True,13,21,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,qwen,A,nested89,exact_minus_MMR3,0.2783784866333008,0.0,0.0,False,True,13,21,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,13,13,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,13,13,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,gemma,A,nested89,exact_minus_top3,0.2783784866333008,0.0,0.0,False,True,13,21,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,gemma,A,nested89,exact_minus_MMR3,0.2783784866333008,0.0,0.0,False,True,13,21,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,13,13,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,qwen,B,nested89,exact_minus_top3,0.2783784866333008,0.0,0.0,False,True,13,21,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,qwen,B,nested89,exact_minus_MMR3,0.2783784866333008,0.0,0.0,False,True,13,21,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,13,13,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,gemma,B,nested89,exact_minus_top3,0.2783784866333008,0.0,0.0,False,True,13,21,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5ac38c0755429939154137bb,gemma,B,nested89,exact_minus_MMR3,0.2783784866333008,0.0,0.0,False,True,13,21,"Annonay, in Ardèche, France","Annonay, in Ardèche, France"
+hotpotqa,5adcea3755429947343537ca,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,28,28,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,qwen,A,nested89,exact_minus_top3,0.7657794952392578,0.0,0.0,False,True,28,14,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,qwen,A,nested89,exact_minus_MMR3,0.7657794952392578,0.0,0.0,False,True,28,14,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,28,28,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,gemma,A,nested89,exact_minus_top3,0.7657794952392578,0.0,0.0,False,True,28,14,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,gemma,A,nested89,exact_minus_MMR3,0.7657794952392578,0.0,0.0,False,True,28,14,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Asia,Asia
+hotpotqa,5adcea3755429947343537ca,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Asia,Asia
+hotpotqa,5adcea3755429947343537ca,qwen,B,nested89,exact_minus_top3,1.5430607795715332,-1.0,-1.0,True,True,44,14,Asia,Europe
+hotpotqa,5adcea3755429947343537ca,qwen,B,nested89,exact_minus_MMR3,1.5430607795715332,-1.0,-1.0,True,True,44,14,Asia,Europe
+hotpotqa,5adcea3755429947343537ca,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,gemma,B,nested89,exact_minus_top3,1.5430607795715332,0.0,0.0,False,True,44,14,Europe,Europe
+hotpotqa,5adcea3755429947343537ca,gemma,B,nested89,exact_minus_MMR3,1.5430607795715332,0.0,0.0,False,True,44,14,Europe,Europe
+hotpotqa,5adf86355542993344016cbd,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,41,41,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,qwen,A,nested89,C_R,0.12812232971191406,0.0,0.0,False,True,9,41,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,41,41,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,qwen,A,nested89,exact_minus_MMR3,0.12344551086425781,0.0,0.0,False,True,41,11,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,41,41,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,gemma,A,nested89,C_R,0.12812232971191406,0.0,0.0,False,True,9,41,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,41,41,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,gemma,A,nested89,exact_minus_MMR3,0.12344551086425781,0.0,0.0,False,True,41,11,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,37,37,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,qwen,B,nested89,C_R,0.14710140228271484,0.0,0.0,False,True,5,37,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,37,37,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,qwen,B,nested89,exact_minus_MMR3,0.12264347076416016,0.0,0.0,False,True,37,7,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,37,37,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,gemma,B,nested89,C_R,0.14710140228271484,0.0,0.0,False,True,5,37,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,37,37,Melbourne Storm,Melbourne Storm
+hotpotqa,5adf86355542993344016cbd,gemma,B,nested89,exact_minus_MMR3,0.12264347076416016,0.0,0.0,False,True,37,7,Melbourne Storm,Melbourne Storm
+hotpotqa,5ae0aaf455429945ae959401,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,42,42,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,42,42,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,42,42,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,42,42,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,37,37,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,qwen,B,nested89,C_R,0.08996343612670898,0.0,0.0,False,True,33,37,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,qwen,B,nested89,exact_minus_top3,0.06675338745117188,0.0,0.0,False,True,37,21,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,qwen,B,nested89,exact_minus_MMR3,0.06675338745117188,0.0,0.0,False,True,37,21,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,37,37,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,gemma,B,nested89,C_R,0.08996343612670898,0.0,0.0,False,True,33,37,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,gemma,B,nested89,exact_minus_top3,0.06675338745117188,0.0,0.0,False,True,37,21,Salford City,Salford City
+hotpotqa,5ae0aaf455429945ae959401,gemma,B,nested89,exact_minus_MMR3,0.06675338745117188,0.0,0.0,False,True,37,21,Salford City,Salford City
+hotpotqa,5ae11bc455429901ffe4ad94,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,qwen,A,nested89,C_R,0.24897003173828125,0.0,0.0,False,True,17,49,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,qwen,A,nested89,exact_minus_top3,0.16394519805908203,0.0,0.0,False,True,49,25,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,qwen,A,nested89,exact_minus_MMR3,0.16394519805908203,0.0,0.0,False,True,49,25,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,gemma,A,nested89,C_R,0.24897003173828125,0.0,0.0,False,True,17,49,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,gemma,A,nested89,exact_minus_top3,0.16394519805908203,0.0,0.0,False,True,49,25,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,gemma,A,nested89,exact_minus_MMR3,0.16394519805908203,0.0,0.0,False,True,49,25,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,qwen,B,nested89,C_R,0.24897003173828125,0.0,0.0,False,True,17,49,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,qwen,B,nested89,exact_minus_top3,0.16394519805908203,0.0,0.0,False,True,49,25,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,qwen,B,nested89,exact_minus_MMR3,0.16394519805908203,0.0,0.0,False,True,49,25,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,gemma,B,nested89,C_R,0.24897003173828125,0.0,0.0,False,True,17,49,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,gemma,B,nested89,exact_minus_top3,0.16394519805908203,0.0,0.0,False,True,49,25,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae11bc455429901ffe4ad94,gemma,B,nested89,exact_minus_MMR3,0.16394519805908203,0.0,0.0,False,True,49,25,Armando Iannucci,Armando Iannucci
+hotpotqa,5ae18b555542997b2ef7d1f7,qwen,A,nested89,J_R,0.10680675506591797,-0.8,0.0,True,True,26,14,not specified,700 km
+hotpotqa,5ae18b555542997b2ef7d1f7,qwen,A,nested89,C_R,0.23476791381835938,0.8,0.0,True,True,12,26,700 km,not specified
+hotpotqa,5ae18b555542997b2ef7d1f7,qwen,A,nested89,exact_minus_top3,0.10680675506591797,-0.8,0.0,True,True,26,14,not specified,700 km
+hotpotqa,5ae18b555542997b2ef7d1f7,qwen,A,nested89,exact_minus_MMR3,0.12983989715576172,-0.8,0.0,True,True,26,28,not specified,700 km
+hotpotqa,5ae18b555542997b2ef7d1f7,gemma,A,nested89,J_R,0.10680675506591797,0.0,0.0,False,True,26,14,210 km,210 km
+hotpotqa,5ae18b555542997b2ef7d1f7,gemma,A,nested89,C_R,0.23476791381835938,0.4,0.0,True,True,12,26,700 km,210 km
+hotpotqa,5ae18b555542997b2ef7d1f7,gemma,A,nested89,exact_minus_top3,0.10680675506591797,0.0,0.0,False,True,26,14,210 km,210 km
+hotpotqa,5ae18b555542997b2ef7d1f7,gemma,A,nested89,exact_minus_MMR3,0.12983989715576172,-0.4,0.0,True,True,26,28,210 km,700 km
+hotpotqa,5ae18b555542997b2ef7d1f7,qwen,B,nested89,J_R,0.10680675506591797,-0.8,0.0,True,True,26,14,not specified,700 km
+hotpotqa,5ae18b555542997b2ef7d1f7,qwen,B,nested89,C_R,0.23476791381835938,0.8,0.0,True,True,12,26,700 km,not specified
+hotpotqa,5ae18b555542997b2ef7d1f7,qwen,B,nested89,exact_minus_top3,0.10680675506591797,-0.8,0.0,True,True,26,14,not specified,700 km
+hotpotqa,5ae18b555542997b2ef7d1f7,qwen,B,nested89,exact_minus_MMR3,0.12983989715576172,-0.8,0.0,True,True,26,28,not specified,700 km
+hotpotqa,5ae18b555542997b2ef7d1f7,gemma,B,nested89,J_R,0.10680675506591797,0.0,0.0,False,True,26,14,210 km,210 km
+hotpotqa,5ae18b555542997b2ef7d1f7,gemma,B,nested89,C_R,0.23476791381835938,0.4,0.0,True,True,12,26,700 km,210 km
+hotpotqa,5ae18b555542997b2ef7d1f7,gemma,B,nested89,exact_minus_top3,0.10680675506591797,0.0,0.0,False,True,26,14,210 km,210 km
+hotpotqa,5ae18b555542997b2ef7d1f7,gemma,B,nested89,exact_minus_MMR3,0.12983989715576172,-0.4,0.0,True,True,26,28,210 km,700 km
+hotpotqa,5ae47dd95542995ad6573d57,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,56,56,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,qwen,A,nested89,exact_minus_top3,0.3675384521484375,0.0,0.0,False,True,56,11,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,qwen,A,nested89,exact_minus_MMR3,0.3675384521484375,0.0,0.0,False,True,56,11,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,56,56,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,gemma,A,nested89,exact_minus_top3,0.3675384521484375,1.0,1.0,True,True,56,11,Barney Fife,Jim Nabors
+hotpotqa,5ae47dd95542995ad6573d57,gemma,A,nested89,exact_minus_MMR3,0.3675384521484375,1.0,1.0,True,True,56,11,Barney Fife,Jim Nabors
+hotpotqa,5ae47dd95542995ad6573d57,qwen,B,nested89,J_R,0.30669736862182617,0.0,0.0,False,True,19,50,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,19,19,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,19,19,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,19,19,Barney Fife,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,gemma,B,nested89,J_R,0.30669736862182617,-1.0,-1.0,True,True,19,50,Jim Nabors,Barney Fife
+hotpotqa,5ae47dd95542995ad6573d57,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,19,19,Jim Nabors,Jim Nabors
+hotpotqa,5ae47dd95542995ad6573d57,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,19,19,Jim Nabors,Jim Nabors
+hotpotqa,5ae47dd95542995ad6573d57,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,19,19,Jim Nabors,Jim Nabors
+hotpotqa,5ae629215542995703ce8b34,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,7,7,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,qwen,A,nested89,exact_minus_top3,0.15270614624023438,0.0,0.0,False,True,7,37,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,7,7,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,7,7,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,gemma,A,nested89,exact_minus_top3,0.15270614624023438,0.0,0.0,False,True,7,37,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,7,7,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,13,13,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,qwen,B,nested89,exact_minus_top3,0.17014217376708984,0.0,0.0,False,True,13,41,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,13,13,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,13,13,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,gemma,B,nested89,exact_minus_top3,0.17014217376708984,0.0,0.0,False,True,13,41,Adelaide,Adelaide
+hotpotqa,5ae629215542995703ce8b34,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,13,13,Adelaide,Adelaide
+musique,2hop__13986_40169,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,26,26,1183,1183
+musique,2hop__13986_40169,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,26,26,1183,1183
+musique,2hop__13986_40169,qwen,A,nested89,exact_minus_top3,0.3964848518371582,0.0,0.0,False,True,26,56,1183,1183
+musique,2hop__13986_40169,qwen,A,nested89,exact_minus_MMR3,0.42555761337280273,0.0,0.0,True,True,26,42,1183,2017
+musique,2hop__13986_40169,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,26,26,1183,1183
+musique,2hop__13986_40169,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,26,26,1183,1183
+musique,2hop__13986_40169,gemma,A,nested89,exact_minus_top3,0.3964848518371582,0.0,0.0,False,True,26,56,1183,1183
+musique,2hop__13986_40169,gemma,A,nested89,exact_minus_MMR3,0.42555761337280273,0.0,0.0,True,True,26,42,1183,2017
+musique,2hop__13986_40169,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,1183,1183
+musique,2hop__13986_40169,qwen,B,nested89,C_R,0.05826282501220703,0.0,0.0,False,True,8,44,1183,1183
+musique,2hop__13986_40169,qwen,B,nested89,exact_minus_top3,0.0441136360168457,0.0,0.0,True,True,44,28,1183,2017
+musique,2hop__13986_40169,qwen,B,nested89,exact_minus_MMR3,0.0441136360168457,0.0,0.0,True,True,44,28,1183,2017
+musique,2hop__13986_40169,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,2017,2017
+musique,2hop__13986_40169,gemma,B,nested89,C_R,0.05826282501220703,0.0,0.0,True,True,8,44,1184,2017
+musique,2hop__13986_40169,gemma,B,nested89,exact_minus_top3,0.0441136360168457,0.0,0.0,False,True,44,28,2017,2017
+musique,2hop__13986_40169,gemma,B,nested89,exact_minus_MMR3,0.0441136360168457,0.0,0.0,False,True,44,28,2017,2017
+musique,2hop__159902_362941,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,qwen,A,nested89,exact_minus_top3,1.6227059662342072,0.0,0.0,False,True,44,14,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,qwen,A,nested89,exact_minus_MMR3,1.6227059662342072,0.0,0.0,False,True,44,14,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,gemma,A,nested89,exact_minus_top3,1.6227059662342072,-0.7499999999999999,0.0,True,True,44,14,"Louisville, Kentucky","Mount Laurel Township, New Jersey"
+musique,2hop__159902_362941,gemma,A,nested89,exact_minus_MMR3,1.6227059662342072,-0.7499999999999999,0.0,True,True,44,14,"Louisville, Kentucky","Mount Laurel Township, New Jersey"
+musique,2hop__159902_362941,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,qwen,B,nested89,exact_minus_MMR3,0.41999566555023193,0.0,0.0,False,True,44,14,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__159902_362941,gemma,B,nested89,exact_minus_MMR3,0.41999566555023193,0.0,0.0,False,True,44,14,"Louisville, Kentucky","Louisville, Kentucky"
+musique,2hop__286621_84856,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,The information provided does not mention any new season of a show named after a Politically Incorrect cast member.,The information provided does not mention any new season of a show named after a Politically Incorrect cast member.
+musique,2hop__286621_84856,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,The information provided does not mention any new season of a show named after a Politically Incorrect cast member.,The information provided does not mention any new season of a show named after a Politically Incorrect cast member.
+musique,2hop__286621_84856,qwen,A,nested89,exact_minus_top3,5.356718063354492,0.0,0.0,True,True,44,7,The information provided does not mention any new season of a show named after a Politically Incorrect cast member.,Not enough information provided.
+musique,2hop__286621_84856,qwen,A,nested89,exact_minus_MMR3,4.086112484335899,0.0,0.0,True,True,44,22,The information provided does not mention any new season of a show named after a Politically Incorrect cast member.,There is no new season of the show named for the Politically Incorrect cast member.
+musique,2hop__286621_84856,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Not available,Not available
+musique,2hop__286621_84856,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Not available,Not available
+musique,2hop__286621_84856,gemma,A,nested89,exact_minus_top3,5.356718063354492,0.0,0.0,True,True,44,7,Not available,1993 to 2002
+musique,2hop__286621_84856,gemma,A,nested89,exact_minus_MMR3,4.086112484335899,0.0,0.0,True,True,44,22,Not available,2002
+musique,2hop__286621_84856,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,The given evidence does not provide information about a new season of a show named after a Politically Incorrect cast member.,The given evidence does not provide information about a new season of a show named after a Politically Incorrect cast member.
+musique,2hop__286621_84856,qwen,B,nested89,C_R,0.17129969596862793,0.0,0.0,True,True,20,52,The Gossip Game will not be returning for a second season.,The given evidence does not provide information about a new season of a show named after a Politically Incorrect cast member.
+musique,2hop__286621_84856,qwen,B,nested89,exact_minus_top3,4.709202289581299,0.0,0.0,True,True,52,7,The given evidence does not provide information about a new season of a show named after a Politically Incorrect cast member.,Not enough information provided.
+musique,2hop__286621_84856,qwen,B,nested89,exact_minus_MMR3,3.417816013097763,0.0,0.0,True,True,52,38,The given evidence does not provide information about a new season of a show named after a Politically Incorrect cast member.,There is no new season of the show named for the Politically Incorrect cast member.
+musique,2hop__286621_84856,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Not available,Not available
+musique,2hop__286621_84856,gemma,B,nested89,C_R,0.17129969596862793,0.0,0.0,True,True,20,52,The show does not have a new season.,Not available
+musique,2hop__286621_84856,gemma,B,nested89,exact_minus_top3,4.709202289581299,0.0,0.0,True,True,52,7,Not available,1993 to 2002
+musique,2hop__286621_84856,gemma,B,nested89,exact_minus_MMR3,3.417816013097763,0.0,0.0,True,True,52,38,Not available,2002
+musique,2hop__423972_540249,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,qwen,A,nested89,C_R,0.01041555404663086,0.0,0.0,False,True,6,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,qwen,A,nested89,exact_minus_MMR3,0.49633359909057617,0.0,0.0,False,True,38,26,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,gemma,A,nested89,C_R,0.01041555404663086,0.0,0.0,False,True,6,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,gemma,A,nested89,exact_minus_MMR3,0.49633359909057617,0.0,0.0,False,True,38,26,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,qwen,B,nested89,C_R,0.01041555404663086,0.0,0.0,False,True,6,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,qwen,B,nested89,exact_minus_MMR3,0.18378400802612305,0.0,0.0,False,True,38,22,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,gemma,B,nested89,C_R,0.01041555404663086,0.0,0.0,False,True,6,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__423972_540249,gemma,B,nested89,exact_minus_MMR3,0.18378400802612305,0.0,0.0,False,True,38,22,Lorenzo de' Medici,Lorenzo de' Medici
+musique,2hop__516918_126537,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,1986,1986
+musique,2hop__516918_126537,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,1986,1986
+musique,2hop__516918_126537,qwen,A,nested89,exact_minus_top3,0.4633646011352539,0.0,0.0,False,True,11,25,1986,1986
+musique,2hop__516918_126537,qwen,A,nested89,exact_minus_MMR3,0.4708127975463867,0.0,0.0,False,True,11,14,1986,1986
+musique,2hop__516918_126537,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,1986,1986
+musique,2hop__516918_126537,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,1986,1986
+musique,2hop__516918_126537,gemma,A,nested89,exact_minus_top3,0.4633646011352539,0.0,0.0,False,True,11,25,1986,1986
+musique,2hop__516918_126537,gemma,A,nested89,exact_minus_MMR3,0.4708127975463867,0.0,0.0,False,True,11,14,1986,1986
+musique,2hop__516918_126537,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,11,11,1986,1986
+musique,2hop__516918_126537,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,11,11,1986,1986
+musique,2hop__516918_126537,qwen,B,nested89,exact_minus_top3,0.4633646011352539,0.0,0.0,False,True,11,25,1986,1986
+musique,2hop__516918_126537,qwen,B,nested89,exact_minus_MMR3,0.4708127975463867,0.0,0.0,False,True,11,14,1986,1986
+musique,2hop__516918_126537,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,11,11,1986,1986
+musique,2hop__516918_126537,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,11,11,1986,1986
+musique,2hop__516918_126537,gemma,B,nested89,exact_minus_top3,0.4633646011352539,0.0,0.0,False,True,11,25,1986,1986
+musique,2hop__516918_126537,gemma,B,nested89,exact_minus_MMR3,0.4708127975463867,0.0,0.0,False,True,11,14,1986,1986
+musique,2hop__51965_165532,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,14,14,Audrey Hepburn,Audrey Hepburn
+musique,2hop__51965_165532,qwen,A,nested89,C_R,0.41707468032836914,0.0,0.0,True,True,6,14,Patricia Neal,Audrey Hepburn
+musique,2hop__51965_165532,qwen,A,nested89,exact_minus_top3,0.2560007572174072,0.0,0.0,True,True,14,22,Audrey Hepburn,Patricia Neal
+musique,2hop__51965_165532,qwen,A,nested89,exact_minus_MMR3,0.03816056251525879,0.0,0.0,True,True,14,38,Audrey Hepburn,Patricia Neal
+musique,2hop__51965_165532,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,14,14,Audrey Hepburn,Audrey Hepburn
+musique,2hop__51965_165532,gemma,A,nested89,C_R,0.41707468032836914,0.0,0.0,False,True,6,14,Audrey Hepburn,Audrey Hepburn
+musique,2hop__51965_165532,gemma,A,nested89,exact_minus_top3,0.2560007572174072,0.0,0.0,False,True,14,22,Audrey Hepburn,Audrey Hepburn
+musique,2hop__51965_165532,gemma,A,nested89,exact_minus_MMR3,0.03816056251525879,0.0,0.0,True,True,14,38,Audrey Hepburn,Unknown
+musique,2hop__51965_165532,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Patricia Neal,Patricia Neal
+musique,2hop__51965_165532,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,38,38,Patricia Neal,Patricia Neal
+musique,2hop__51965_165532,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,Patricia Neal,Patricia Neal
+musique,2hop__51965_165532,qwen,B,nested89,exact_minus_MMR3,0.5709140300750732,0.0,0.0,False,True,38,14,Patricia Neal,Patricia Neal
+musique,2hop__51965_165532,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,38,38,Audrey Hepburn,Audrey Hepburn
+musique,2hop__51965_165532,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,38,38,Audrey Hepburn,Audrey Hepburn
+musique,2hop__51965_165532,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,38,38,Audrey Hepburn,Audrey Hepburn
+musique,2hop__51965_165532,gemma,B,nested89,exact_minus_MMR3,0.5709140300750732,0.0,0.0,False,True,38,14,Audrey Hepburn,Audrey Hepburn
+musique,2hop__574419_270105,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,25,25,Mountrail County,Mountrail County
+musique,2hop__574419_270105,qwen,A,nested89,C_R,0.19210243225097656,0.0,0.0,False,True,24,25,Mountrail County,Mountrail County
+musique,2hop__574419_270105,qwen,A,nested89,exact_minus_top3,2.23117733001709,-1.0,-1.0,True,True,25,14,Mountrail County,Stanley
+musique,2hop__574419_270105,qwen,A,nested89,exact_minus_MMR3,2.3468685150146484,0.0,0.0,True,True,25,44,Mountrail County,Târnăveni
+musique,2hop__574419_270105,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,25,25,Mountrail County,Mountrail County
+musique,2hop__574419_270105,gemma,A,nested89,C_R,0.19210243225097656,0.0,0.0,False,True,24,25,Mountrail County,Mountrail County
+musique,2hop__574419_270105,gemma,A,nested89,exact_minus_top3,2.23117733001709,0.0,0.0,False,True,25,14,Mountrail County,Mountrail County
+musique,2hop__574419_270105,gemma,A,nested89,exact_minus_MMR3,2.3468685150146484,0.0,0.0,False,True,25,44,Mountrail County,Mountrail County
+musique,2hop__574419_270105,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Stanley,Stanley
+musique,2hop__574419_270105,qwen,B,nested89,C_R,1.3630824089050293,-1.0,-1.0,True,True,48,49,Mountrail County,Stanley
+musique,2hop__574419_270105,qwen,B,nested89,exact_minus_top3,0.9132900238037109,0.0,0.0,False,True,49,25,Stanley,Stanley
+musique,2hop__574419_270105,qwen,B,nested89,exact_minus_MMR3,0.2569160461425781,1.0,1.0,True,True,49,56,Stanley,Târnăveni
+musique,2hop__574419_270105,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,49,49,Mountrail County,Mountrail County
+musique,2hop__574419_270105,gemma,B,nested89,C_R,1.3630824089050293,0.0,0.0,False,True,48,49,Mountrail County,Mountrail County
+musique,2hop__574419_270105,gemma,B,nested89,exact_minus_top3,0.9132900238037109,0.0,0.0,False,True,49,25,Mountrail County,Mountrail County
+musique,2hop__574419_270105,gemma,B,nested89,exact_minus_MMR3,0.2569160461425781,0.0,0.0,False,True,49,56,Mountrail County,Mountrail County
+musique,2hop__635187_861533,qwen,A,nested89,J_R,0.07135486602783203,0.4,0.0,True,True,35,44,Niassa Province,Tanzania
+musique,2hop__635187_861533,qwen,A,nested89,C_R,1.0248732566833496,-0.4,0.0,True,True,32,35,Tanzania,Niassa Province
+musique,2hop__635187_861533,qwen,A,nested89,exact_minus_top3,0.47907304763793945,0.4,0.0,True,True,35,42,Niassa Province,Tanzania
+musique,2hop__635187_861533,qwen,A,nested89,exact_minus_MMR3,0.3122243881225586,0.4,0.0,True,True,35,52,Niassa Province,Tanzania
+musique,2hop__635187_861533,gemma,A,nested89,J_R,0.07135486602783203,0.4,0.0,True,True,35,44,Niassa Province,Tanzania
+musique,2hop__635187_861533,gemma,A,nested89,C_R,1.0248732566833496,0.0,0.0,False,True,32,35,Niassa Province,Niassa Province
+musique,2hop__635187_861533,gemma,A,nested89,exact_minus_top3,0.47907304763793945,0.4,0.0,True,True,35,42,Niassa Province,Tanzania
+musique,2hop__635187_861533,gemma,A,nested89,exact_minus_MMR3,0.3122243881225586,0.0,0.0,False,True,35,52,Niassa Province,Niassa Province
+musique,2hop__635187_861533,qwen,B,nested89,J_R,0.05749034881591797,0.4,0.0,True,True,35,56,Niassa Province,Tanzania
+musique,2hop__635187_861533,qwen,B,nested89,C_R,1.020674228668213,-0.4,0.0,True,True,32,35,Tanzania,Niassa Province
+musique,2hop__635187_861533,qwen,B,nested89,exact_minus_top3,0.51153564453125,0.4,0.0,True,True,35,52,Niassa Province,Tanzania
+musique,2hop__635187_861533,qwen,B,nested89,exact_minus_MMR3,0.11833667755126953,0.4,0.0,True,True,35,42,Niassa Province,Tanzania
+musique,2hop__635187_861533,gemma,B,nested89,J_R,0.05749034881591797,0.4,0.0,True,True,35,56,Niassa Province,Tanzania
+musique,2hop__635187_861533,gemma,B,nested89,C_R,1.020674228668213,0.0,0.0,False,True,32,35,Niassa Province,Niassa Province
+musique,2hop__635187_861533,gemma,B,nested89,exact_minus_top3,0.51153564453125,0.4,0.0,True,True,35,52,Niassa Province,Tanzania
+musique,2hop__635187_861533,gemma,B,nested89,exact_minus_MMR3,0.11833667755126953,0.4,0.0,True,True,35,42,Niassa Province,Tanzania
+musique,2hop__665660_135481,qwen,A,nested89,J_R,0.10088610649108887,-0.8571428571428571,0.0,True,True,21,13,Fed Cup,International Tennis Federation (ITF)
+musique,2hop__665660_135481,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,21,21,Fed Cup,Fed Cup
+musique,2hop__665660_135481,qwen,A,nested89,exact_minus_top3,0.7436609268188477,-0.8571428571428571,0.0,True,True,21,14,Fed Cup,International Tennis Federation (ITF)
+musique,2hop__665660_135481,qwen,A,nested89,exact_minus_MMR3,0.6098666191101074,0.0,0.0,False,True,21,38,Fed Cup,Fed Cup
+musique,2hop__665660_135481,gemma,A,nested89,J_R,0.10088610649108887,-0.6,-1.0,True,True,21,13,Tennis organization,International Tennis Federation
+musique,2hop__665660_135481,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,21,21,Tennis organization,Tennis organization
+musique,2hop__665660_135481,gemma,A,nested89,exact_minus_top3,0.7436609268188477,-0.6,-1.0,True,True,21,14,Tennis organization,International Tennis Federation
+musique,2hop__665660_135481,gemma,A,nested89,exact_minus_MMR3,0.6098666191101074,-0.6,-1.0,True,True,21,38,Tennis organization,The International Tennis Federation
+musique,2hop__665660_135481,qwen,B,nested89,J_R,0.08685541152954102,-0.8571428571428571,0.0,True,True,7,14,Fed Cup,International Tennis Federation (ITF)
+musique,2hop__665660_135481,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,7,7,Fed Cup,Fed Cup
+musique,2hop__665660_135481,qwen,B,nested89,exact_minus_top3,0.6071414947509766,-0.8571428571428571,0.0,True,True,7,26,Fed Cup,International Tennis Federation (ITF)
+musique,2hop__665660_135481,qwen,B,nested89,exact_minus_MMR3,0.4516611099243164,0.0,0.0,False,True,7,38,Fed Cup,Fed Cup
+musique,2hop__665660_135481,gemma,B,nested89,J_R,0.08685541152954102,-1.0,-1.0,True,True,7,14,The Fed Cup,International Tennis Federation
+musique,2hop__665660_135481,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,7,7,The Fed Cup,The Fed Cup
+musique,2hop__665660_135481,gemma,B,nested89,exact_minus_top3,0.6071414947509766,-1.0,-1.0,True,True,7,26,The Fed Cup,International Tennis Federation
+musique,2hop__665660_135481,gemma,B,nested89,exact_minus_MMR3,0.4516611099243164,-1.0,-1.0,True,True,7,38,The Fed Cup,The International Tennis Federation
+musique,2hop__673655_316668,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,50,50,Chapman Stick,Chapman Stick
+musique,2hop__673655_316668,qwen,A,nested89,C_R,0.014945268630981445,0.0,0.0,False,True,34,50,Chapman Stick,Chapman Stick
+musique,2hop__673655_316668,qwen,A,nested89,exact_minus_top3,0.6754066944122314,-1.0,-1.0,True,True,50,14,Chapman Stick,conga
+musique,2hop__673655_316668,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,50,50,Chapman Stick,Chapman Stick
+musique,2hop__673655_316668,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,50,50,Dave Valentin,Dave Valentin
+musique,2hop__673655_316668,gemma,A,nested89,C_R,0.014945268630981445,0.0,0.0,True,True,34,50,Chapman Stick,Dave Valentin
+musique,2hop__673655_316668,gemma,A,nested89,exact_minus_top3,0.6754066944122314,-1.0,-1.0,True,True,50,14,Dave Valentin,Conga
+musique,2hop__673655_316668,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,50,50,Dave Valentin,Dave Valentin
+musique,2hop__673655_316668,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,25,25,Chapman Stick,Chapman Stick
+musique,2hop__673655_316668,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,25,25,Chapman Stick,Chapman Stick
+musique,2hop__673655_316668,qwen,B,nested89,exact_minus_top3,1.2171096801757812,0.0,0.0,True,True,25,7,Chapman Stick,Piano
+musique,2hop__673655_316668,qwen,B,nested89,exact_minus_MMR3,0.7759935855865479,0.0,0.0,False,True,25,41,Chapman Stick,Chapman Stick
+musique,2hop__673655_316668,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,25,25,Chapman Stick,Chapman Stick
+musique,2hop__673655_316668,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,25,25,Chapman Stick,Chapman Stick
+musique,2hop__673655_316668,gemma,B,nested89,exact_minus_top3,1.2171096801757812,0.0,0.0,True,True,25,7,Chapman Stick,Piano
+musique,2hop__673655_316668,gemma,B,nested89,exact_minus_MMR3,0.7759935855865479,0.0,0.0,False,True,25,41,Chapman Stick,Chapman Stick
+musique,2hop__73615_20510,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,25,25,1773,1773
+musique,2hop__73615_20510,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,25,25,1773,1773
+musique,2hop__73615_20510,qwen,A,nested89,exact_minus_top3,0.24229204654693604,-1.0,-1.0,True,True,25,41,1773,1600
+musique,2hop__73615_20510,qwen,A,nested89,exact_minus_MMR3,0.4490154981613159,0.0,0.0,False,True,25,13,1773,1773
+musique,2hop__73615_20510,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,25,25,1765,1765
+musique,2hop__73615_20510,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,25,25,1765,1765
+musique,2hop__73615_20510,gemma,A,nested89,exact_minus_top3,0.24229204654693604,-1.0,-1.0,True,True,25,41,1765,1600
+musique,2hop__73615_20510,gemma,A,nested89,exact_minus_MMR3,0.4490154981613159,0.0,0.0,False,True,25,13,1765,1765
+musique,2hop__73615_20510,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,14,14,1600,1600
+musique,2hop__73615_20510,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,14,14,1600,1600
+musique,2hop__73615_20510,qwen,B,nested89,exact_minus_top3,1.680219292640686,0.0,0.0,False,True,14,26,1600,1600
+musique,2hop__73615_20510,qwen,B,nested89,exact_minus_MMR3,0.9769605398178101,1.0,1.0,True,True,14,7,1600,1954
+musique,2hop__73615_20510,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,14,14,1773,1773
+musique,2hop__73615_20510,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,14,14,1773,1773
+musique,2hop__73615_20510,gemma,B,nested89,exact_minus_top3,1.680219292640686,-1.0,-1.0,True,True,14,26,1773,1600
+musique,2hop__73615_20510,gemma,B,nested89,exact_minus_MMR3,0.9769605398178101,0.0,0.0,False,True,14,7,1773,1773
+musique,2hop__91211_90973,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Lacey Chabert,Lacey Chabert
+musique,2hop__91211_90973,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Lacey Chabert,Lacey Chabert
+musique,2hop__91211_90973,qwen,A,nested89,exact_minus_top3,0.44286584854125977,0.0,0.0,False,True,42,56,Lacey Chabert,Lacey Chabert
+musique,2hop__91211_90973,qwen,A,nested89,exact_minus_MMR3,0.44286584854125977,0.0,0.0,False,True,42,56,Lacey Chabert,Lacey Chabert
+musique,2hop__91211_90973,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,42,42,Lacey Chabert,Lacey Chabert
+musique,2hop__91211_90973,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,42,42,Lacey Chabert,Lacey Chabert
+musique,2hop__91211_90973,gemma,A,nested89,exact_minus_top3,0.44286584854125977,1.0,1.0,True,True,42,56,Lacey Chabert,Mila Kunis
+musique,2hop__91211_90973,gemma,A,nested89,exact_minus_MMR3,0.44286584854125977,1.0,1.0,True,True,42,56,Lacey Chabert,Mila Kunis
+musique,2hop__91211_90973,qwen,B,nested89,J_R,0.010392189025878906,-1.0,-1.0,True,True,38,44,Mike Henry,Lacey Chabert
+musique,2hop__91211_90973,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,38,38,Mike Henry,Mike Henry
+musique,2hop__91211_90973,qwen,B,nested89,exact_minus_top3,2.0989049673080444,-1.0,-1.0,True,True,38,37,Mike Henry,Lacey Chabert
+musique,2hop__91211_90973,qwen,B,nested89,exact_minus_MMR3,2.0989049673080444,-1.0,-1.0,True,True,38,37,Mike Henry,Lacey Chabert
+musique,2hop__91211_90973,gemma,B,nested89,J_R,0.010392189025878906,0.0,0.0,False,True,38,44,Mila Kunis,Mila Kunis
+musique,2hop__91211_90973,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,38,38,Mila Kunis,Mila Kunis
+musique,2hop__91211_90973,gemma,B,nested89,exact_minus_top3,2.0989049673080444,0.0,0.0,False,True,38,37,Mila Kunis,Mila Kunis
+musique,2hop__91211_90973,gemma,B,nested89,exact_minus_MMR3,2.0989049673080444,0.0,0.0,False,True,38,37,Mila Kunis,Mila Kunis
+musique,3hop1__103662_443779_52195,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,qwen,A,nested89,C_R,0.03650712966918945,0.0,0.0,True,True,48,56,Susilo Bambang Yudhoyono,Sam Nujoma
+musique,3hop1__103662_443779_52195,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,gemma,A,nested89,C_R,0.03650712966918945,0.0,0.0,True,True,48,56,Susilo Bambang Yudhoyono,Sam Nujoma
+musique,3hop1__103662_443779_52195,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,qwen,B,nested89,C_R,0.03650712966918945,0.0,0.0,True,True,48,56,Susilo Bambang Yudhoyono,Sam Nujoma
+musique,3hop1__103662_443779_52195,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,gemma,B,nested89,C_R,0.03650712966918945,0.0,0.0,True,True,48,56,Susilo Bambang Yudhoyono,Sam Nujoma
+musique,3hop1__103662_443779_52195,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__103662_443779_52195,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,56,56,Sam Nujoma,Sam Nujoma
+musique,3hop1__106900_443779_52195,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,qwen,A,nested89,C_R,0.17132854461669922,0.0,0.0,False,True,20,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,gemma,A,nested89,C_R,0.17132854461669922,0.0,0.0,False,True,20,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,qwen,B,nested89,C_R,0.24397039413452148,0.0,0.0,False,True,12,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,gemma,B,nested89,C_R,0.24397039413452148,0.0,0.0,False,True,12,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__106900_443779_52195,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,28,28,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__136129_87694_64412,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,1560,1560
+musique,3hop1__136129_87694_64412,qwen,A,nested89,C_R,0.41410696506500244,0.0,0.0,True,True,48,56,1991,1560
+musique,3hop1__136129_87694_64412,qwen,A,nested89,exact_minus_top3,0.6432863473892212,-0.5,0.0,True,True,56,52,1560,1929
+musique,3hop1__136129_87694_64412,qwen,A,nested89,exact_minus_MMR3,0.6432863473892212,-0.5,0.0,True,True,56,52,1560,1929
+musique,3hop1__136129_87694_64412,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,56,56,1560,1560
+musique,3hop1__136129_87694_64412,gemma,A,nested89,C_R,0.41410696506500244,0.0,0.0,False,True,48,56,1560,1560
+musique,3hop1__136129_87694_64412,gemma,A,nested89,exact_minus_top3,0.6432863473892212,0.0,0.0,True,True,56,52,1560,Never
+musique,3hop1__136129_87694_64412,gemma,A,nested89,exact_minus_MMR3,0.6432863473892212,0.0,0.0,True,True,56,52,1560,Never
+musique,3hop1__136129_87694_64412,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,1991,1991
+musique,3hop1__136129_87694_64412,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,56,56,1991,1991
+musique,3hop1__136129_87694_64412,qwen,B,nested89,exact_minus_top3,0.6840381622314453,0.0,0.0,False,True,56,41,1991,1991
+musique,3hop1__136129_87694_64412,qwen,B,nested89,exact_minus_MMR3,1.0674993991851807,0.0,0.0,False,True,56,44,1991,1991
+musique,3hop1__136129_87694_64412,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,Austria,Austria
+musique,3hop1__136129_87694_64412,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,56,56,Austria,Austria
+musique,3hop1__136129_87694_64412,gemma,B,nested89,exact_minus_top3,0.6840381622314453,0.0,0.0,True,True,56,41,Austria,1560
+musique,3hop1__136129_87694_64412,gemma,B,nested89,exact_minus_MMR3,1.0674993991851807,0.0,0.0,True,True,56,44,Austria,Never
+musique,3hop1__163024_443779_52195,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,19,19,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__163024_443779_52195,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,19,19,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__163024_443779_52195,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,19,19,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__163024_443779_52195,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,19,19,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__163024_443779_52195,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,19,19,Sam Nujoma,Sam Nujoma
+musique,3hop1__163024_443779_52195,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,19,19,Sam Nujoma,Sam Nujoma
+musique,3hop1__163024_443779_52195,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,19,19,Sam Nujoma,Sam Nujoma
+musique,3hop1__163024_443779_52195,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,19,19,Sam Nujoma,Sam Nujoma
+musique,3hop1__163024_443779_52195,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__163024_443779_52195,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,35,35,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__163024_443779_52195,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,35,35,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__163024_443779_52195,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,35,35,Susilo Bambang Yudhoyono,Susilo Bambang Yudhoyono
+musique,3hop1__163024_443779_52195,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Sam Nujoma,Sam Nujoma
+musique,3hop1__163024_443779_52195,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,35,35,Sam Nujoma,Sam Nujoma
+musique,3hop1__163024_443779_52195,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,35,35,Sam Nujoma,Sam Nujoma
+musique,3hop1__163024_443779_52195,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,35,35,Sam Nujoma,Sam Nujoma
+musique,3hop1__222497_737465_93723,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,qwen,A,nested89,exact_minus_top3,1.352689504623413,0.0,0.0,False,True,11,25,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,qwen,A,nested89,exact_minus_MMR3,0.383988618850708,0.0,0.0,False,True,11,13,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,11,11,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,11,11,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,gemma,A,nested89,exact_minus_top3,1.352689504623413,1.0,1.0,True,True,11,25,Jason Momoa,Liam Garrigan
+musique,3hop1__222497_737465_93723,gemma,A,nested89,exact_minus_MMR3,0.383988618850708,0.0,0.0,False,True,11,13,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,11,11,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,11,11,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,qwen,B,nested89,exact_minus_top3,1.352689504623413,0.0,0.0,False,True,11,25,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,qwen,B,nested89,exact_minus_MMR3,1.142174482345581,0.0,0.0,False,True,11,13,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,11,11,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,11,11,Jason Momoa,Jason Momoa
+musique,3hop1__222497_737465_93723,gemma,B,nested89,exact_minus_top3,1.352689504623413,1.0,1.0,True,True,11,25,Jason Momoa,Liam Garrigan
+musique,3hop1__222497_737465_93723,gemma,B,nested89,exact_minus_MMR3,1.142174482345581,0.0,0.0,False,True,11,13,Jason Momoa,Jason Momoa
+musique,3hop1__315504_629431_64412,qwen,A,nested89,J_R,0.36434364318847656,-0.5,0.0,True,True,21,35,Not provided in evidence,1929
+musique,3hop1__315504_629431_64412,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,21,21,Not provided in evidence,Not provided in evidence
+musique,3hop1__315504_629431_64412,qwen,A,nested89,exact_minus_top3,1.4753804206848145,-0.5,0.0,True,True,21,11,Not provided in evidence,1929
+musique,3hop1__315504_629431_64412,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,21,21,Not provided in evidence,Not provided in evidence
+musique,3hop1__315504_629431_64412,gemma,A,nested89,J_R,0.36434364318847656,0.0,0.0,True,True,21,35,"Oxford, England",1915
+musique,3hop1__315504_629431_64412,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,21,21,"Oxford, England","Oxford, England"
+musique,3hop1__315504_629431_64412,gemma,A,nested89,exact_minus_top3,1.4753804206848145,-0.5,0.0,True,True,21,11,"Oxford, England",1929
+musique,3hop1__315504_629431_64412,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,21,21,"Oxford, England","Oxford, England"
+musique,3hop1__315504_629431_64412,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,14,14,2014,2014
+musique,3hop1__315504_629431_64412,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,14,14,2014,2014
+musique,3hop1__315504_629431_64412,qwen,B,nested89,exact_minus_top3,0.288895845413208,0.0,0.0,True,True,14,38,2014,1964
+musique,3hop1__315504_629431_64412,qwen,B,nested89,exact_minus_MMR3,3.241499215364456,0.0,0.0,True,True,14,19,2014,Answer unavailable in provided evidence.
+musique,3hop1__315504_629431_64412,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,14,14,Msida,Msida
+musique,3hop1__315504_629431_64412,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,14,14,Msida,Msida
+musique,3hop1__315504_629431_64412,gemma,B,nested89,exact_minus_top3,0.288895845413208,0.0,0.0,False,True,14,38,Msida,Msida
+musique,3hop1__315504_629431_64412,gemma,B,nested89,exact_minus_MMR3,3.241499215364456,0.0,0.0,True,True,14,19,Msida,1968
+musique,3hop1__488744_443779_52195,qwen,A,nested89,J_R,0.013463020324707031,0.0,0.0,False,True,13,37,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,13,13,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,qwen,A,nested89,exact_minus_top3,0.013463020324707031,0.0,0.0,False,True,13,37,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,qwen,A,nested89,exact_minus_MMR3,0.013463020324707031,0.0,0.0,False,True,13,37,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,gemma,A,nested89,J_R,0.013463020324707031,0.0,0.0,False,True,13,37,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,13,13,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,gemma,A,nested89,exact_minus_top3,0.013463020324707031,0.0,0.0,False,True,13,37,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,gemma,A,nested89,exact_minus_MMR3,0.013463020324707031,0.0,0.0,False,True,13,37,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,Sam Nujoma,Sam Nujoma
+musique,3hop1__488744_443779_52195,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,Sam Nujoma,Sam Nujoma
+musique,3hop1__527372_339990_54675,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,qwen,A,nested89,C_R,0.050780296325683594,0.0,0.0,False,True,3,7,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,7,7,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,qwen,A,nested89,exact_minus_MMR3,0.25420236587524414,0.0,0.0,False,True,7,35,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,7,7,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,gemma,A,nested89,C_R,0.050780296325683594,0.0,0.0,False,True,3,7,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,7,7,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,gemma,A,nested89,exact_minus_MMR3,0.25420236587524414,0.0,0.0,False,True,7,35,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,35,35,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,qwen,B,nested89,exact_minus_top3,0.14017581939697266,0.0,0.0,False,True,35,7,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,qwen,B,nested89,exact_minus_MMR3,0.40527820587158203,0.0,0.0,True,True,35,19,Mt. Hood and Mt. St. Helens,Cascade Range
+musique,3hop1__527372_339990_54675,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,35,35,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,35,35,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,gemma,B,nested89,exact_minus_top3,0.14017581939697266,0.0,0.0,False,True,35,7,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__527372_339990_54675,gemma,B,nested89,exact_minus_MMR3,0.40527820587158203,0.0,0.0,False,True,35,19,Mt. Hood and Mt. St. Helens,Mt. Hood and Mt. St. Helens
+musique,3hop1__662413_42197_18397,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Taiwan Strait,Taiwan Strait
+musique,3hop1__662413_42197_18397,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Taiwan Strait,Taiwan Strait
+musique,3hop1__662413_42197_18397,qwen,A,nested89,exact_minus_top3,2.048804223537445,0.0,0.0,False,True,44,14,Taiwan Strait,Taiwan Strait
+musique,3hop1__662413_42197_18397,qwen,A,nested89,exact_minus_MMR3,0.24910259246826172,0.0,0.0,True,True,44,52,Taiwan Strait,UN conference
+musique,3hop1__662413_42197_18397,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,He would intervene in Korea,He would intervene in Korea
+musique,3hop1__662413_42197_18397,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,He would intervene in Korea,He would intervene in Korea
+musique,3hop1__662413_42197_18397,gemma,A,nested89,exact_minus_top3,2.048804223537445,0.0,0.0,True,True,44,14,He would intervene in Korea,Mao Zedong
+musique,3hop1__662413_42197_18397,gemma,A,nested89,exact_minus_MMR3,0.24910259246826172,0.0,0.0,True,True,44,52,He would intervene in Korea,Nikita Khrushchev
+musique,3hop1__662413_42197_18397,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,UN conference,UN conference
+musique,3hop1__662413_42197_18397,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,52,52,UN conference,UN conference
+musique,3hop1__662413_42197_18397,qwen,B,nested89,exact_minus_top3,3.9219307899475098,0.0,0.0,True,True,52,7,UN conference,Taiwan Strait
+musique,3hop1__662413_42197_18397,qwen,B,nested89,exact_minus_MMR3,0.3545379638671875,0.0,0.0,True,True,52,44,UN conference,Taiwan Strait
+musique,3hop1__662413_42197_18397,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Nikita Khrushchev,Nikita Khrushchev
+musique,3hop1__662413_42197_18397,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,52,52,Nikita Khrushchev,Nikita Khrushchev
+musique,3hop1__662413_42197_18397,gemma,B,nested89,exact_minus_top3,3.9219307899475098,0.0,0.0,True,True,52,7,Nikita Khrushchev,Mao
+musique,3hop1__662413_42197_18397,gemma,B,nested89,exact_minus_MMR3,0.3545379638671875,0.0,0.0,True,True,52,44,Nikita Khrushchev,China
+musique,3hop2__326964_734214_7713,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,0,0
+musique,3hop2__326964_734214_7713,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,0,0
+musique,3hop2__326964_734214_7713,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,0,0
+musique,3hop2__326964_734214_7713,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,0,0
+musique,3hop2__326964_734214_7713,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Nanjing,Nanjing
+musique,3hop2__326964_734214_7713,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Nanjing,Nanjing
+musique,3hop2__326964_734214_7713,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,Nanjing,Nanjing
+musique,3hop2__326964_734214_7713,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,Nanjing,Nanjing
+musique,3hop2__326964_734214_7713,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,0,0
+musique,3hop2__326964_734214_7713,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,0,0
+musique,3hop2__326964_734214_7713,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,0,0
+musique,3hop2__326964_734214_7713,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,0,0
+musique,3hop2__326964_734214_7713,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,44,44,Nanjing,Nanjing
+musique,3hop2__326964_734214_7713,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,44,44,Nanjing,Nanjing
+musique,3hop2__326964_734214_7713,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,44,44,Nanjing,Nanjing
+musique,3hop2__326964_734214_7713,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,44,44,Nanjing,Nanjing
+musique,3hop2__565959_223623_162182,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,13,13,Vietnam,Vietnam
+musique,3hop2__565959_223623_162182,qwen,A,nested89,C_R,0.04002952575683594,0.0,0.0,True,True,9,13,"Da Nang, Vietnam",Vietnam
+musique,3hop2__565959_223623_162182,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,13,13,Vietnam,Vietnam
+musique,3hop2__565959_223623_162182,qwen,A,nested89,exact_minus_MMR3,1.1304233074188232,-1.0,-1.0,True,True,13,19,Vietnam,South Central Coast
+musique,3hop2__565959_223623_162182,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,13,13,"Da Nang, Vietnam","Da Nang, Vietnam"
+musique,3hop2__565959_223623_162182,gemma,A,nested89,C_R,0.04002952575683594,0.0,0.0,False,True,9,13,"Da Nang, Vietnam","Da Nang, Vietnam"
+musique,3hop2__565959_223623_162182,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,13,13,"Da Nang, Vietnam","Da Nang, Vietnam"
+musique,3hop2__565959_223623_162182,gemma,A,nested89,exact_minus_MMR3,1.1304233074188232,0.0,0.0,False,True,13,19,"Da Nang, Vietnam","Da Nang, Vietnam"
+musique,3hop2__565959_223623_162182,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,28,28,South,South
+musique,3hop2__565959_223623_162182,qwen,B,nested89,C_R,0.058827877044677734,-0.5,0.0,True,True,20,28,California,South
+musique,3hop2__565959_223623_162182,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,28,28,South,South
+musique,3hop2__565959_223623_162182,qwen,B,nested89,exact_minus_MMR3,1.035590648651123,0.5,0.0,True,True,28,37,South,California
+musique,3hop2__565959_223623_162182,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,28,28,"Da Nang, Vietnam","Da Nang, Vietnam"
+musique,3hop2__565959_223623_162182,gemma,B,nested89,C_R,0.058827877044677734,0.0,0.0,True,True,20,28,"Da Nang, Vietnam
+
+
+
+
+Da Nang, Vietnam
+
+
+Da Nang, Vietnam
+
+Da Nang, Vietnam
+
+Da Nang, Vietnam","Da Nang, Vietnam"
+musique,3hop2__565959_223623_162182,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,28,28,"Da Nang, Vietnam","Da Nang, Vietnam"
+musique,3hop2__565959_223623_162182,gemma,B,nested89,exact_minus_MMR3,1.035590648651123,0.0,0.0,True,True,28,37,"Da Nang, Vietnam",Vietnam
+musique,3hop2__93066_88342_90766,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,50,50,2017,2017
+musique,3hop2__93066_88342_90766,qwen,A,nested89,C_R,0.3223116397857666,0.0,0.0,False,True,48,50,2017,2017
+musique,3hop2__93066_88342_90766,qwen,A,nested89,exact_minus_top3,2.78266304731369,0.0,0.0,False,True,50,19,2017,2017
+musique,3hop2__93066_88342_90766,qwen,A,nested89,exact_minus_MMR3,2.0123443603515625,0.0,0.0,False,True,50,22,2017,2017
+musique,3hop2__93066_88342_90766,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,50,50,2017,2017
+musique,3hop2__93066_88342_90766,gemma,A,nested89,C_R,0.3223116397857666,0.0,0.0,False,True,48,50,2017,2017
+musique,3hop2__93066_88342_90766,gemma,A,nested89,exact_minus_top3,2.78266304731369,0.0,0.0,False,True,50,19,2017,2017
+musique,3hop2__93066_88342_90766,gemma,A,nested89,exact_minus_MMR3,2.0123443603515625,0.0,0.0,False,True,50,22,2017,2017
+musique,3hop2__93066_88342_90766,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,2017,2017
+musique,3hop2__93066_88342_90766,qwen,B,nested89,C_R,0.40058135986328125,0.0,0.0,False,True,48,56,2017,2017
+musique,3hop2__93066_88342_90766,qwen,B,nested89,exact_minus_top3,1.4552712440490723,0.0,0.0,False,True,56,19,2017,2017
+musique,3hop2__93066_88342_90766,qwen,B,nested89,exact_minus_MMR3,1.4552712440490723,0.0,0.0,False,True,56,19,2017,2017
+musique,3hop2__93066_88342_90766,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,56,56,"November 1, 2017","November 1, 2017"
+musique,3hop2__93066_88342_90766,gemma,B,nested89,C_R,0.40058135986328125,0.0,0.0,True,True,48,56,2017,"November 1, 2017"
+musique,3hop2__93066_88342_90766,gemma,B,nested89,exact_minus_top3,1.4552712440490723,0.0,0.0,True,True,56,19,"November 1, 2017",2017
+musique,3hop2__93066_88342_90766,gemma,B,nested89,exact_minus_MMR3,1.4552712440490723,0.0,0.0,True,True,56,19,"November 1, 2017",2017
+musique,4hop1__151650_5274_458768_33633,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,25,25,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,25,25,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,qwen,A,nested89,exact_minus_top3,0.28674888610839844,0.0,0.0,False,True,25,41,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,qwen,A,nested89,exact_minus_MMR3,0.28674888610839844,0.0,0.0,False,True,25,41,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,25,25,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,25,25,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,gemma,A,nested89,exact_minus_top3,0.28674888610839844,0.0,0.0,False,True,25,41,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,gemma,A,nested89,exact_minus_MMR3,0.28674888610839844,0.0,0.0,False,True,25,41,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,13,13,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,qwen,B,nested89,exact_minus_top3,0.17142629623413086,0.0,0.0,False,True,13,37,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,13,13,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,13,13,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,13,13,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,gemma,B,nested89,exact_minus_top3,0.17142629623413086,0.0,0.0,False,True,13,37,"August 3, 1769","August 3, 1769"
+musique,4hop1__151650_5274_458768_33633,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,13,13,"August 3, 1769","August 3, 1769"
+musique,4hop1__31333_59747_211319_557671,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Wayne County,Wayne County
+musique,4hop1__31333_59747_211319_557671,qwen,A,nested89,C_R,0.0064334869384765625,0.0,0.0,False,True,48,52,Wayne County,Wayne County
+musique,4hop1__31333_59747_211319_557671,qwen,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,52,52,Wayne County,Wayne County
+musique,4hop1__31333_59747_211319_557671,qwen,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,52,52,Wayne County,Wayne County
+musique,4hop1__31333_59747_211319_557671,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,52,52,Wayne,Wayne
+musique,4hop1__31333_59747_211319_557671,gemma,A,nested89,C_R,0.0064334869384765625,0.0,0.0,False,True,48,52,Wayne,Wayne
+musique,4hop1__31333_59747_211319_557671,gemma,A,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,52,52,Wayne,Wayne
+musique,4hop1__31333_59747_211319_557671,gemma,A,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,52,52,Wayne,Wayne
+musique,4hop1__31333_59747_211319_557671,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,25,25,Wayne County,Wayne County
+musique,4hop1__31333_59747_211319_557671,qwen,B,nested89,C_R,0.09698104858398438,0.0,0.0,False,True,24,25,Wayne County,Wayne County
+musique,4hop1__31333_59747_211319_557671,qwen,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,25,25,Wayne County,Wayne County
+musique,4hop1__31333_59747_211319_557671,qwen,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,25,25,Wayne County,Wayne County
+musique,4hop1__31333_59747_211319_557671,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,25,25,Wayne,Wayne
+musique,4hop1__31333_59747_211319_557671,gemma,B,nested89,C_R,0.09698104858398438,0.0,0.0,False,True,24,25,Wayne,Wayne
+musique,4hop1__31333_59747_211319_557671,gemma,B,nested89,exact_minus_top3,0.0,0.0,0.0,False,False,25,25,Wayne,Wayne
+musique,4hop1__31333_59747_211319_557671,gemma,B,nested89,exact_minus_MMR3,0.0,0.0,0.0,False,False,25,25,Wayne,Wayne
+musique,4hop1__360072_508773_85832_745702,qwen,A,nested89,J_R,0.1794281005859375,0.0,0.0,False,True,7,13,Sebastian Cabot,Sebastian Cabot
+musique,4hop1__360072_508773_85832_745702,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,7,7,Sebastian Cabot,Sebastian Cabot
+musique,4hop1__360072_508773_85832_745702,qwen,A,nested89,exact_minus_top3,0.9316329956054688,1.0,1.0,True,True,7,14,Sebastian Cabot,Giovanni Caboto
+musique,4hop1__360072_508773_85832_745702,qwen,A,nested89,exact_minus_MMR3,1.5555548667907715,0.5,1.0,True,True,7,38,Sebastian Cabot,John Cabot
+musique,4hop1__360072_508773_85832_745702,gemma,A,nested89,J_R,0.1794281005859375,1.0,1.0,True,True,7,13,Sebastian Cabot,Venetian Republic
+musique,4hop1__360072_508773_85832_745702,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,7,7,Sebastian Cabot,Sebastian Cabot
+musique,4hop1__360072_508773_85832_745702,gemma,A,nested89,exact_minus_top3,0.9316329956054688,0.5,1.0,True,True,7,14,Sebastian Cabot,John Cabot
+musique,4hop1__360072_508773_85832_745702,gemma,A,nested89,exact_minus_MMR3,1.5555548667907715,0.5,1.0,True,True,7,38,Sebastian Cabot,John Cabot
+musique,4hop1__360072_508773_85832_745702,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,14,14,"Francisco Bojado's brother, Angel Bojado.","Francisco Bojado's brother, Angel Bojado."
+musique,4hop1__360072_508773_85832_745702,qwen,B,nested89,C_R,0.032016754150390625,0.0,0.0,True,True,6,14,None,"Francisco Bojado's brother, Angel Bojado."
+musique,4hop1__360072_508773_85832_745702,qwen,B,nested89,exact_minus_top3,0.24512720108032227,-0.5,0.0,True,True,14,11,"Francisco Bojado's brother, Angel Bojado.",John Cabot
+musique,4hop1__360072_508773_85832_745702,qwen,B,nested89,exact_minus_MMR3,0.298978328704834,-0.5,0.0,True,True,14,35,"Francisco Bojado's brother, Angel Bojado.",John Cabot
+musique,4hop1__360072_508773_85832_745702,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,14,14,John Cabot,John Cabot
+musique,4hop1__360072_508773_85832_745702,gemma,B,nested89,C_R,0.032016754150390625,0.0,0.0,False,True,6,14,John Cabot,John Cabot
+musique,4hop1__360072_508773_85832_745702,gemma,B,nested89,exact_minus_top3,0.24512720108032227,0.5,0.0,True,True,14,11,John Cabot,Newfoundland
+musique,4hop1__360072_508773_85832_745702,gemma,B,nested89,exact_minus_MMR3,0.298978328704834,0.5,0.0,True,True,14,35,John Cabot,Venetian
+musique,4hop2__71753_623626_70784_79935,qwen,A,nested89,J_R,0.0,0.0,0.0,False,False,14,14,1930,1930
+musique,4hop2__71753_623626_70784_79935,qwen,A,nested89,C_R,0.05834388732910156,-1.0,-1.0,True,True,10,14,Not specified in the given evidence.,1930
+musique,4hop2__71753_623626_70784_79935,qwen,A,nested89,exact_minus_top3,0.32780981063842773,1.0,1.0,True,True,14,42,1930,Not specified in the given evidence.
+musique,4hop2__71753_623626_70784_79935,qwen,A,nested89,exact_minus_MMR3,0.32780981063842773,1.0,1.0,True,True,14,42,1930,Not specified in the given evidence.
+musique,4hop2__71753_623626_70784_79935,gemma,A,nested89,J_R,0.0,0.0,0.0,False,False,14,14,1930,1930
+musique,4hop2__71753_623626_70784_79935,gemma,A,nested89,C_R,0.05834388732910156,-1.0,-1.0,True,True,10,14,Not specified,1930
+musique,4hop2__71753_623626_70784_79935,gemma,A,nested89,exact_minus_top3,0.32780981063842773,1.0,1.0,True,True,14,42,1930,Not specified
+musique,4hop2__71753_623626_70784_79935,gemma,A,nested89,exact_minus_MMR3,0.32780981063842773,1.0,1.0,True,True,14,42,1930,Not specified
+musique,4hop2__71753_623626_70784_79935,qwen,B,nested89,J_R,0.0,0.0,0.0,False,False,28,28,The information provided does not specify a creation date for any region mentioned.,The information provided does not specify a creation date for any region mentioned.
+musique,4hop2__71753_623626_70784_79935,qwen,B,nested89,C_R,0.13724422454833984,0.0,0.0,True,True,12,28,Not specified in the given evidence.,The information provided does not specify a creation date for any region mentioned.
+musique,4hop2__71753_623626_70784_79935,qwen,B,nested89,exact_minus_top3,0.2230215072631836,0.0,0.0,True,True,28,44,The information provided does not specify a creation date for any region mentioned.,Not specified in the given evidence.
+musique,4hop2__71753_623626_70784_79935,qwen,B,nested89,exact_minus_MMR3,0.2230215072631836,0.0,0.0,True,True,28,44,The information provided does not specify a creation date for any region mentioned.,Not specified in the given evidence.
+musique,4hop2__71753_623626_70784_79935,gemma,B,nested89,J_R,0.0,0.0,0.0,False,False,28,28,Unknown,Unknown
+musique,4hop2__71753_623626_70784_79935,gemma,B,nested89,C_R,0.13724422454833984,0.0,0.0,True,True,12,28,Not specified,Unknown
+musique,4hop2__71753_623626_70784_79935,gemma,B,nested89,exact_minus_top3,0.2230215072631836,0.0,0.0,True,True,28,44,Unknown,Not specified
+musique,4hop2__71753_623626_70784_79935,gemma,B,nested89,exact_minus_MMR3,0.2230215072631836,0.0,0.0,True,True,28,44,Unknown,Not specified
+musique,4hop2__9988_261673_70784_79935,qwen,A,nested89,J_R,0.5437562465667725,0.0,0.0,False,True,44,14,1978-79,1978-79
+musique,4hop2__9988_261673_70784_79935,qwen,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,1978-79,1978-79
+musique,4hop2__9988_261673_70784_79935,qwen,A,nested89,exact_minus_top3,0.7572095394134521,0.0,0.0,True,True,44,38,1978-79,"Title: Hertfordshire
+Text: Hertfordshire is the county immediately north of London and is part of the East of England region, a mainly statistical unit."
+musique,4hop2__9988_261673_70784_79935,qwen,A,nested89,exact_minus_MMR3,1.0859630107879639,-1.0,-1.0,True,True,44,22,1978-79,1930
+musique,4hop2__9988_261673_70784_79935,gemma,A,nested89,J_R,0.5437562465667725,0.0,0.0,False,True,44,14,1978-79,1978-79
+musique,4hop2__9988_261673_70784_79935,gemma,A,nested89,C_R,0.0,0.0,0.0,False,False,44,44,1978-79,1978-79
+musique,4hop2__9988_261673_70784_79935,gemma,A,nested89,exact_minus_top3,0.7572095394134521,0.0,0.0,True,True,44,38,1978-79,Unknown
+musique,4hop2__9988_261673_70784_79935,gemma,A,nested89,exact_minus_MMR3,1.0859630107879639,-1.0,-1.0,True,True,44,22,1978-79,1930
+musique,4hop2__9988_261673_70784_79935,qwen,B,nested89,J_R,0.5696201324462891,0.0,0.0,False,True,38,7,1978-79,1978-79
+musique,4hop2__9988_261673_70784_79935,qwen,B,nested89,C_R,0.0,0.0,0.0,False,False,38,38,1978-79,1978-79
+musique,4hop2__9988_261673_70784_79935,qwen,B,nested89,exact_minus_top3,0.7329483032226562,0.0,0.0,True,True,38,35,1978-79,"Title: Hertfordshire
+Text: Hertfordshire is the county immediately north of London and is part of the East of England region, a mainly statistical unit."
+musique,4hop2__9988_261673_70784_79935,qwen,B,nested89,exact_minus_MMR3,1.1104044914245605,-1.0,-1.0,True,True,38,19,1978-79,1930
+musique,4hop2__9988_261673_70784_79935,gemma,B,nested89,J_R,0.5696201324462891,0.0,0.0,False,True,38,7,1978-79,1978-79
+musique,4hop2__9988_261673_70784_79935,gemma,B,nested89,C_R,0.0,0.0,0.0,False,False,38,38,1978-79,1978-79
+musique,4hop2__9988_261673_70784_79935,gemma,B,nested89,exact_minus_top3,0.7329483032226562,0.0,0.0,True,True,38,35,1978-79,Unknown
+musique,4hop2__9988_261673_70784_79935,gemma,B,nested89,exact_minus_MMR3,1.1104044914245605,-1.0,-1.0,True,True,38,19,1978-79,1930

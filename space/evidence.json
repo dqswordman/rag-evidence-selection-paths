@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Figure 1 · saved answers",
+    "items": [
+      {
+        "name": "Original",
+        "description": "Devilment finally found a stable vocalist in the founding member of which band?",
+        "rows": [
+          {
+            "label": "Archived Qwen answer",
+            "value": "Cradle of Filth"
+          },
+          {
+            "label": "Passage order",
+            "value": "1 → 3"
+          },
+          {
+            "label": "Token F1",
+            "value": "100 / 100"
+          },
+          {
+            "label": "Reference answer",
+            "value": "Cradle of Filth"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Reversed",
+        "description": "Devilment finally found a stable vocalist in the founding member of which band?",
+        "rows": [
+          {
+            "label": "Archived Qwen answer",
+            "value": "Falling in Reverse"
+          },
+          {
+            "label": "Passage order",
+            "value": "3 → 1"
+          },
+          {
+            "label": "Token F1",
+            "value": "0 / 100"
+          },
+          {
+            "label": "Reference answer",
+            "value": "Cradle of Filth"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Reselected",
+        "description": "Devilment finally found a stable vocalist in the founding member of which band?",
+        "rows": [
+          {
+            "label": "Archived Qwen answer",
+            "value": "Cradle of Filth"
+          },
+          {
+            "label": "Passage order",
+            "value": "6 → 1"
+          },
+          {
+            "label": "Token F1",
+            "value": "100 / 100"
+          },
+          {
+            "label": "Reference answer",
+            "value": "Cradle of Filth"
+          }
+        ],
+        "bars": []
+      }
+    ]
+  },
+  {
+    "name": "Table 2 · paired estimates",
+    "items": [
+      {
+        "name": "Mistral",
+        "description": "Token-F1 point differences on 539 questions, averaging the two candidate pools within each question.",
+        "rows": [
+          {
+            "label": "Budget release",
+            "value": "+4.79 points"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "+3.12 to +6.53"
+          },
+          {
+            "label": "Same-size search",
+            "value": "+1.11 points"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−0.00 to +2.23"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Gemma",
+        "description": "Token-F1 point differences on 539 questions, averaging the two candidate pools within each question.",
+        "rows": [
+          {
+            "label": "Budget release",
+            "value": "+0.95 points"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−1.32 to +3.23"
+          },
+          {
+            "label": "Same-size search",
+            "value": "+0.65 points"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−0.79 to +2.12"
+          }
+        ],
+        "bars": []
+      },
+      {
+        "name": "Qwen",
+        "description": "Token-F1 point differences on 539 questions, averaging the two candidate pools within each question.",
+        "rows": [
+          {
+            "label": "Budget release",
+            "value": "−1.46 points"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−3.99 to +0.97"
+          },
+          {
+            "label": "Same-size search",
+            "value": "−0.35 points"
+          },
+          {
+            "label": "Paired 95% interval",
+            "value": "−2.13 to +1.46"
+          }
+        ],
+        "bars": []
+      }
+    ]
+  }
+]
