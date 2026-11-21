@@ -5,11 +5,11 @@ type: software
 authors:
 - family-names: Du
   given-names: Wenzhang
-version: 1.0.0
+version: 1.0.1
 date-released: '2026-11-21'
 license: MIT
 repository-code: https://github.com/dqswordman/rag-evidence-selection-paths
-url: https://github.com/dqswordman/rag-evidence-selection-paths/tree/v1.0.0
+url: https://github.com/dqswordman/rag-evidence-selection-paths/tree/v1.0.1
 preferred-citation:
   type: report
   title: 'From Evidence Scores to RAG Answers: Budget, Search, and Presentation'
@@ -19,4 +19,4 @@ preferred-citation:
   year: 2026
   month: 11
   url: https://dqswordman.github.io/assets/reports/rag-evidence-selection-paths/manuscript.pdf
-  version: 1.0.0
+  version: 1.0.1

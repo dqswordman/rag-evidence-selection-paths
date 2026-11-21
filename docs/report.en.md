@@ -2,7 +2,7 @@
 
 From Evidence Scores to RAG Answers: Budget, Search, and Presentation
 
-Wenzhang Du · Open Research Reports · v1.0.0 · 2026-11-21
+Wenzhang Du · Open Research Reports · v1.0.1 · 2026-11-21
 
 Two selection paths separate passage budget, combination search and presentation order. A saved answer at each step shows where an apparent gain originates.
 
@@ -34,7 +34,7 @@ Table 2 of the manuscript. Paired changes in token-F1 points on 539 questions.
 | Gemma | +0.95 | +0.65 | +1.60 |
 | Mistral | +4.79 | +1.11 | +5.91 |
 
-[Source table](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.0/data/analysis/A_bootstrap_summary.csv)
+[Source table](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.1/data/analysis/A_bootstrap_summary.csv)
 
 ## The same membership change can switch sign
 
@@ -46,11 +46,14 @@ An answer-blind cross-encoder offers a check on a different selection objective.
 
 On CPU the release re-scores archived generations, checks 9,702 selected-answer records and recomputes 279 paired statistics. It includes passage identifiers and text hashes for joining the original benchmarks. Original benchmark sources supply the passage bodies.
 
+The original selection code independently finds masks 5 and 33 on the two saved utility surfaces for the Figure 1 question. The archived model loader, likelihood scorer and greedy generation routines are provided alongside it.
+
 ```sh
 python -B verify_manifest.py
 python -B reproduce.py --out replay
+python -B check_methods.py
 ```
 
 ## Citation and materials
 
-[Original manuscript · PDF](https://dqswordman.github.io/assets/reports/rag-evidence-selection-paths/manuscript.pdf) · [Frozen release and checksums](https://github.com/dqswordman/rag-evidence-selection-paths/releases/tag/v1.0.0) · [Result map and reproduction scope](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.0/docs/reproduction.md) · [Interactive evidence explorer](https://huggingface.co/spaces/DQSWORDMAN/rag-evidence-selection-paths)
+[Original manuscript · PDF](https://dqswordman.github.io/assets/reports/rag-evidence-selection-paths/manuscript.pdf) · [Frozen release and checksums](https://github.com/dqswordman/rag-evidence-selection-paths/releases/tag/v1.0.1) · [Result map and reproduction scope](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.1/docs/reproduction.md) · [Interactive evidence explorer](https://huggingface.co/spaces/DQSWORDMAN/rag-evidence-selection-paths) · [Method implementation and worked checks](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.1/docs/methods.md)

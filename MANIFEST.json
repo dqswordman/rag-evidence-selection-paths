@@ -1,5 +1,5 @@
 {
-  "distribution": "GitHub v1.0.0",
+  "distribution": "GitHub v1.0.1",
   "title": "From Evidence Scores to RAG Answers: Budget, Search, and Presentation",
   "author": "Wenzhang Du",
   "files": [
@@ -11,7 +11,7 @@
     {
       "path": ".github/workflows/publish-hugging-face.yml",
       "size_bytes": 1548,
-      "sha256": "fc2b1aa7db4f494e8e05d81d5fffd93ad6a796ea096331fe322e7413686031e1"
+      "sha256": "207ad1ea3e1cbfee22a73e90472e9133952d47a845591bf6c69fdea79eb9219a"
     },
     {
       "path": ".gitignore",
@@ -19,14 +19,19 @@
       "sha256": "b77c7eaaa5cebad124c73420774e5d580753c520267551cb2087e6132a9b59c5"
     },
     {
+      "path": "check_methods.py",
+      "size_bytes": 1263,
+      "sha256": "3f436ba19e5d73fee773b7c230c2788eadfd8c272d6a003abf2c16ac952b1b92"
+    },
+    {
       "path": "citation.bib",
       "size_bytes": 313,
-      "sha256": "6af71b719989ab25c13963206232fb0ae121ca61eb2ed6827bee1520821aac12"
+      "sha256": "2c8a9560885d72425cb81d46c825f25030a14b55d9374a0704d4f26460fb2628"
     },
     {
       "path": "CITATION.cff",
       "size_bytes": 776,
-      "sha256": "edefafcd240646365001e091e201e095063051ebe9d2f182bfc43a17fb20d0f2"
+      "sha256": "15933d2fe65230bf34cc42f185c019c18181a537ee1e6781f9aae7a6d3ef16b0"
     },
     {
       "path": "data/analysis/A_bootstrap_summary.csv",
@@ -130,23 +135,28 @@
     },
     {
       "path": "docs/companion.json",
-      "size_bytes": 11229,
-      "sha256": "93928af4a94ce3b1b649902f285fa660381fc758bdacc91ef5b56f65161eaa2e"
+      "size_bytes": 12113,
+      "sha256": "ec71f75c8f936db20bbabc921032d20182fbe8502ed37b6b23e46784bef1c630"
+    },
+    {
+      "path": "docs/methods.md",
+      "size_bytes": 714,
+      "sha256": "45032a7bfc177c8746e525af1fec44e74d6c7b406a50e0b82d4c1ffd0e5ca5e9"
     },
     {
       "path": "docs/report.en.md",
-      "size_bytes": 4384,
-      "sha256": "e0db45f52f8e45e389db5a1b046dbd9a3905eddba221df0d996687ef8e3b15ee"
+      "size_bytes": 4772,
+      "sha256": "f20cbe7bd5ba7cd79fbd88a6e6d31488d72d4dc644d6d5ecc515fe1e1a55304e"
     },
     {
       "path": "docs/report.zh.md",
-      "size_bytes": 3855,
-      "sha256": "ef588b4547802d96cac15519b2fc35cdb275a55b4fed827049f72e7341a6aabc"
+      "size_bytes": 4191,
+      "sha256": "e8fb2eccb9ead7b5ee8c423fbaae8db3dff77e32011d7f403f048388d03a6651"
     },
     {
       "path": "docs/reproduction.md",
-      "size_bytes": 2172,
-      "sha256": "24afc10150233f8d1a6acac52a71598896499362a3236fe5e291e05b40519950"
+      "size_bytes": 2788,
+      "sha256": "5ad9bc67d2ad362c40132d3f656933cde4b08c9b60d0c0a77c77e1b23c443171"
     },
     {
       "path": "figures/A1_budget_and_search.png",
@@ -189,14 +199,34 @@
       "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
     },
     {
+      "path": "methods/__init__.py",
+      "size_bytes": 75,
+      "sha256": "9750dd222300adbf6fad0a92a756bc5717d10e90802a3d99e06394d7a61f2733"
+    },
+    {
+      "path": "methods/eug_core.py",
+      "size_bytes": 21978,
+      "sha256": "54bcf3950bf236f37ac7d62a06f2c4614e06ee8c3e9611f5775b5a63520b8216"
+    },
+    {
+      "path": "methods/eug_generation.py",
+      "size_bytes": 2179,
+      "sha256": "23722edded8be214f045cc81e42d741c68c47d9adcb4f145f9d44ea7a62599d1"
+    },
+    {
+      "path": "methods/eug_inference.py",
+      "size_bytes": 15142,
+      "sha256": "70ab9379346ce3b45789412ea278d48e60b8e490cf45ed303bb8c4d86319adfc"
+    },
+    {
       "path": "paper/manuscript.pdf",
       "size_bytes": 496330,
       "sha256": "1ed3a87eedbc180675a62a5f666ff33b573885089d4eed03a913a97deefc210d"
     },
     {
       "path": "README.md",
-      "size_bytes": 2906,
-      "sha256": "491667f81552811e0c5fcec828b73be99b968ff368e0fbe8938541053fcdbc35"
+      "size_bytes": 3489,
+      "sha256": "333a226c2cab439d7c0b49bdbe40186651af62818f6c38f53302ea125601aad1"
     },
     {
       "path": "reference/A_cardinality_contributions_bootstrap.csv",
@@ -276,7 +306,7 @@
     {
       "path": "scripts/publish_space.py",
       "size_bytes": 5655,
-      "sha256": "5e8faf4ca551845b0058d6d8ea879658fcfeef99dcc7a9282acdf561edc59acb"
+      "sha256": "e4ee5957933125903e775f42cc139edd28c15c0602195c5f7a0d0b1e9fa3e983"
     },
     {
       "path": "scripts/r2_stats.py",
@@ -306,12 +336,12 @@
     {
       "path": "space/index.html",
       "size_bytes": 5953,
-      "sha256": "dd4c238fa80890b35a435eb8e436a3d5dd2ed14856a5536ae855f5c1e846e394"
+      "sha256": "668367ad143f0e3946a410f82900bcbb6953e6db64c404d20eb0ac7db13c9087"
     },
     {
       "path": "space/README.md",
-      "size_bytes": 1644,
-      "sha256": "e0dee28c4b328fb9e8638826c209ce5bcba91575ff36834fc287c648a410370d"
+      "size_bytes": 1757,
+      "sha256": "2e9f16ef12a8a159ceeb05cc1bceee144856379e563535d400682df1d71e414c"
     },
     {
       "path": "space/style.css",

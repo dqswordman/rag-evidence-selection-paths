@@ -2,7 +2,7 @@
 
 From Evidence Scores to RAG Answers: Budget, Search, and Presentation
 
-Wenzhang Du · 开放研究报告 · v1.0.0 · 2026-11-21
+Wenzhang Du · 开放研究报告 · v1.0.1 · 2026-11-21
 
 沿两条配对路径，分别改变段落预算、组合搜索和呈现顺序。每一步都有已保存的回答，可以追查最终得分从哪里来。
 
@@ -34,7 +34,7 @@ Mistral 在整条路径上提高 5.91 个 token-F1 点。其中，允许用更�
 | Gemma | +0.95 | +0.65 | +1.60 |
 | Mistral | +4.79 | +1.11 | +5.91 |
 
-[数据来源](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.0/data/analysis/A_bootstrap_summary.csv)
+[数据来源](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.1/data/analysis/A_bootstrap_summary.csv)
 
 ## 同一组替换，顺序不同，效应会反向
 
@@ -46,11 +46,14 @@ Mistral 在整条路径上提高 5.91 个 token-F1 点。其中，允许用更�
 
 CPU 回放重新计算归档回答的分数，核验 9,702 条选中答案，并重算 279 项配对统计。包内保存段落标识和文本哈希，可回到上游基准核对段落正文。
 
+用原始选择代码在图 1 问题的两个效用曲面上独立搜索，会分别得到掩码 5 和 33。包内同时提供当时的模型加载、似然评分与贪心生成实现。
+
 ```sh
 python -B verify_manifest.py
 python -B reproduce.py --out replay
+python -B check_methods.py
 ```
 
 ## 引用与材料
 
-[原版论文 · PDF](https://dqswordman.github.io/assets/reports/rag-evidence-selection-paths/manuscript.pdf) · [固定版本与校验值](https://github.com/dqswordman/rag-evidence-selection-paths/releases/tag/v1.0.0) · [结果映射与复现范围](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.0/docs/reproduction.md) · [交互式证据浏览](https://huggingface.co/spaces/DQSWORDMAN/rag-evidence-selection-paths)
+[原版论文 · PDF](https://dqswordman.github.io/assets/reports/rag-evidence-selection-paths/manuscript.pdf) · [固定版本与校验值](https://github.com/dqswordman/rag-evidence-selection-paths/releases/tag/v1.0.1) · [结果映射与复现范围](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.1/docs/reproduction.md) · [交互式证据浏览](https://huggingface.co/spaces/DQSWORDMAN/rag-evidence-selection-paths) · [方法源码与核验说明](https://github.com/dqswordman/rag-evidence-selection-paths/blob/v1.0.1/docs/methods.md)
