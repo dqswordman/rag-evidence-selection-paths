@@ -2,6 +2,8 @@
 
 **From Evidence Scores to RAG Answers: Budget, Search, and Presentation** · Wenzhang Du · v1.0.1
 
+To reproduce the budget and search comparison, begin with the 539 question-level pairs and their saved answers. To inspect the effect of order, use the separate 30-question panel. The commands below produce the summary tables on CPU.
+
 ```sh
 python -m pip install -r requirements.txt
 python -B verify_manifest.py
@@ -20,7 +22,7 @@ Run the commands at the root of the extracted archive with Python 3.12. CPU veri
 
 The public inputs preserve benchmark question IDs, passages’ titles, order, retrieval ranks and text digests. The original benchmark repositories supply passage bodies. Answer strings are recorded generations. New model inference needs the original sources and checkpoints. The public bootstrap uses 20,000 draws.
 
-Six passages, short-answer multi-hop QA and one global reversal define the experiment. Reference-answer likelihood is an offline selection objective. For a single worked case, run `python -B scripts/replay_figure1.py`. [Original manuscript](../paper/manuscript.pdf) · [English report](report.en.md) · [中文报告](report.zh.md) · [Third-party terms](../THIRD_PARTY_NOTICES.md)
+Selections use the reference answer’s likelihood. The order comparison tests one reversal per selected set on 30 matched short-answer questions. For a single worked case, run `python -B scripts/replay_figure1.py`. [Original manuscript](../paper/manuscript.pdf) · [English report](report.en.md) · [中文报告](report.zh.md) · [Third-party terms](../THIRD_PARTY_NOTICES.md)
 
 ## Method implementation
 

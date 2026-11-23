@@ -1,5 +1,5 @@
 # Method implementation
 
-The original selection implementation in [methods/eug_core.py](../methods/eug_core.py) includes subset enumeration, centering, teacher-forced utility, exact and greedy selection, marginals and oracle regret. The [pinned model loader and batch scorer](../methods/eug_inference.py) and [generation routine](../methods/eug_generation.py) are available for use with separately obtained local model snapshots. The CPU check independently selects the canonical and reversed masks from all 64 saved utilities for the worked question.
+The [selection code](../methods/eug_core.py) enumerates the 64 subsets of six passages and scores a selection by its gap to the best feasible subset. The CPU check uses two saved score arrays to recover the selected passages before and after reversing their order. The [model loader and batch scorer](../methods/eug_inference.py) and [generation routine](../methods/eug_generation.py) support new inference with the separately obtained pinned checkpoints.
 
 From the release root, run `python -B check_methods.py`. The model loader requires previously obtained pinned snapshots and the original inference dependencies.

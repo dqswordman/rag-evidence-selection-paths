@@ -1,5 +1,5 @@
 {
-  "distribution": "GitHub v1.0.1",
+  "distribution": "GitHub main · research artifact v1.0.1, revised web companion",
   "title": "From Evidence Scores to RAG Answers: Budget, Search, and Presentation",
   "author": "Wenzhang Du",
   "files": [
@@ -135,28 +135,28 @@
     },
     {
       "path": "docs/companion.json",
-      "size_bytes": 12113,
-      "sha256": "ec71f75c8f936db20bbabc921032d20182fbe8502ed37b6b23e46784bef1c630"
+      "size_bytes": 13116,
+      "sha256": "f19483951b063314dfcafe745c7f87491aacf9d26958de17f406fff30b208db5"
     },
     {
       "path": "docs/methods.md",
-      "size_bytes": 714,
-      "sha256": "45032a7bfc177c8746e525af1fec44e74d6c7b406a50e0b82d4c1ffd0e5ca5e9"
+      "size_bytes": 643,
+      "sha256": "c3ed6ca5e53506b3e35b7c7f9f4a105bfcbeb4b0e58eb0a8ed2179d6aecefd0d"
     },
     {
       "path": "docs/report.en.md",
-      "size_bytes": 4772,
-      "sha256": "f20cbe7bd5ba7cd79fbd88a6e6d31488d72d4dc644d6d5ecc515fe1e1a55304e"
+      "size_bytes": 5333,
+      "sha256": "ed3266acedcea1252257ecf8a3d7035023284cdc4b5d10b59684a1f2d61774bc"
     },
     {
       "path": "docs/report.zh.md",
-      "size_bytes": 4191,
-      "sha256": "e8fb2eccb9ead7b5ee8c423fbaae8db3dff77e32011d7f403f048388d03a6651"
+      "size_bytes": 4625,
+      "sha256": "4ed38303c33b71b7551f4cbd7a985e1f15ee791f5ac2fa326c4e7b4eab3b0718"
     },
     {
       "path": "docs/reproduction.md",
-      "size_bytes": 2788,
-      "sha256": "5ad9bc67d2ad362c40132d3f656933cde4b08c9b60d0c0a77c77e1b23c443171"
+      "size_bytes": 3020,
+      "sha256": "3984bbea2308261006558bde2f946345b24e471482930e426db88bee3fdca9e2"
     },
     {
       "path": "figures/A1_budget_and_search.png",
@@ -225,8 +225,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 3489,
-      "sha256": "333a226c2cab439d7c0b49bdbe40186651af62818f6c38f53302ea125601aad1"
+      "size_bytes": 3561,
+      "sha256": "8a75fb14bc06cfc4862ddcad886ee15dae9573ccbf64a221f4c4cd830989f279"
     },
     {
       "path": "reference/A_cardinality_contributions_bootstrap.csv",
@@ -335,13 +335,13 @@
     },
     {
       "path": "space/index.html",
-      "size_bytes": 5953,
-      "sha256": "668367ad143f0e3946a410f82900bcbb6953e6db64c404d20eb0ac7db13c9087"
+      "size_bytes": 5985,
+      "sha256": "715eff206b526e5cc585548cee1da99167b12175b24c58745d9cb6c86853faa1"
     },
     {
       "path": "space/README.md",
-      "size_bytes": 1757,
-      "sha256": "2e9f16ef12a8a159ceeb05cc1bceee144856379e563535d400682df1d71e414c"
+      "size_bytes": 1855,
+      "sha256": "487500c56f82a43173e940dbfbb511cb86d7461443a288a5180b30565ee0e383"
     },
     {
       "path": "space/style.css",

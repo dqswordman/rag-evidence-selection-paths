@@ -2,7 +2,7 @@
 
 **Wenzhang Du** · [Open Research Reports](https://dqswordman.github.io/open-research/) · November 2026
 
-Follow the same RAG question as two passages change order. Across 539 questions, relaxing the passage budget accounts for 4.79 of Mistral’s 5.91 token-F1-point gain.
+A different answer can come from choosing fewer passages, choosing different passages or reading them in a different order. On 539 multi-hop questions, allowing shorter contexts accounts for 4.79 of Mistral’s 5.91 token-F1 points of improvement. The released answers let you trace each change separately.
 
 [Manuscript PDF](paper/manuscript.pdf) · [Technical report](https://dqswordman.github.io/technical-reports/rag-evidence-selection-paths/) · [中文技术报告](https://dqswordman.github.io/zh/technical-reports/rag-evidence-selection-paths/) · [Interactive explorer](https://huggingface.co/spaces/DQSWORDMAN/rag-evidence-selection-paths) · [Download v1.0.1](https://github.com/dqswordman/rag-evidence-selection-paths/releases/tag/v1.0.1)
 
@@ -10,7 +10,7 @@ Follow the same RAG question as two passages change order. Across 539 questions,
 
 ## Read the evidence
 
-Two selection paths separate passage budget, combination search and presentation order. A saved answer at each step shows where an apparent gain originates. Six passages, short-answer multi-hop QA and one global reversal define the experiment. Reference-answer likelihood is an offline selection objective.
+First compare greedy and exhaustive selection at exactly three passages from six, then allow fewer. A separate 30-question comparison reverses the same selected passages before permitting a new selection. Selection uses reference-answer likelihood. The reported token F1 comes from the saved generated answers.
 
 | Result | Open the evidence |
 | --- | --- |
@@ -32,7 +32,7 @@ For one worked example, run `python -B scripts/replay_figure1.py`. The [reproduc
 
 ## Method implementation
 
-The original selection implementation in [methods/eug_core.py](methods/eug_core.py) includes subset enumeration, centering, teacher-forced utility, exact and greedy selection, marginals and oracle regret. The [pinned model loader and batch scorer](methods/eug_inference.py) and [generation routine](methods/eug_generation.py) are available for use with separately obtained local model snapshots. The CPU check independently selects the canonical and reversed masks from all 64 saved utilities for the worked question.
+The [selection code](methods/eug_core.py) enumerates the 64 subsets of six passages and scores a selection by its gap to the best feasible subset. The CPU check uses two saved score arrays to recover the selected passages before and after reversing their order. The [model loader and batch scorer](methods/eug_inference.py) and [generation routine](methods/eug_generation.py) support new inference with the separately obtained pinned checkpoints.
 
 ```sh
 python -B check_methods.py

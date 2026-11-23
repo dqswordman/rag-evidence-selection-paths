@@ -1,6 +1,6 @@
 ---
 title: RAG evidence paths
-short_description: Inspect passage order, saved answers and paired F1 changes
+short_description: Follow how passage choice and order change RAG answers
 emoji: 📖
 colorFrom: green
 colorTo: gray
@@ -20,7 +20,7 @@ pinned: false
 
 **Wenzhang Du** · Open Research Reports · v1.0.1
 
-Follow the same RAG question as two passages change order. Across 539 questions, relaxing the passage budget accounts for 4.79 of Mistral’s 5.91 token-F1-point gain.
+Follow Qwen’s answer to the Devilment question as two passages change order and the selector chooses again. Then compare search and context-size effects in 539 questions across three generators. The answer records and paired estimates come from the versioned release.
 
 [Manuscript PDF](https://dqswordman.github.io/assets/reports/rag-evidence-selection-paths/manuscript.pdf) · [Technical report](https://dqswordman.github.io/technical-reports/rag-evidence-selection-paths/) · [中文技术报告](https://dqswordman.github.io/zh/technical-reports/rag-evidence-selection-paths/) · [GitHub](https://github.com/dqswordman/rag-evidence-selection-paths) · [Frozen release](https://github.com/dqswordman/rag-evidence-selection-paths/releases/tag/v1.0.1)
 
